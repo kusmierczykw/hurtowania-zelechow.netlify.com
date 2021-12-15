@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  gatsby:
+    tty: true
+    ports:
+      - "8000:8000"
+    build:
+      context: ./gatsby
+    volumes:
+      - "../:/app"
+    networks:
+      - frontend
+
+networks:
+  frontend:
+    external: true

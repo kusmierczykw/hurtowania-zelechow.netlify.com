@@ -1,1 +1,0 @@
-# hurtowania-zelechow.netlify.com
