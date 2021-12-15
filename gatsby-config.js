@@ -4,13 +4,13 @@ module.exports = {
     title: ".",
   },
   plugins: [
-    "gatsby-plugin-sass",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "XXX",
       },
     },
+    "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
