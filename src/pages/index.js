@@ -3,9 +3,9 @@ import {Navbar} from "../fragments/navbar/navbar.fragment";
 
 const IndexPage = () => {
     return (
-        <main>
-            <Navbar/>
-        </main>
+       <>
+           <Navbar/>
+       </>
     )
 }
 
