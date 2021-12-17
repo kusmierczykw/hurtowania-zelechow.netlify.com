@@ -1,0 +1,19 @@
+@use '../styles/variables/colors' as *;
+
+.navbar-address {
+  display: inline-flex;
+  align-items: center;
+
+  &__icon {
+    padding: 1rem;
+    line-height: 1;
+    border-radius: 50%;
+    background-color: $blue;
+    color: $white;
+  }
+
+  &__location {
+    margin-left: 1rem;
+    text-align: left;
+  }
+}

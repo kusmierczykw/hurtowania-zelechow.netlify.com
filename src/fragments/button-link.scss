@@ -1,0 +1,15 @@
+@use 'src/styles/variables/colors' as *;
+
+.button-link {
+  background-color: $blue;
+  color: $white;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $white;
+  }
+}
