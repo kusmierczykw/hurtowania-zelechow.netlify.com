@@ -10,6 +10,8 @@ import VizirLogo from '../images/vizir-logo.png';
 import PersilLogo from '../images/persil-logo.png';
 import PurLogo from '../images/pur-logo.png';
 import {ButtonLink} from "../fragments/button-link";
+import {CompanyLogo} from "../fragments/company-logo.fragment";
+import {Divider} from "../fragments/divider.fragment";
 
 const menu = [
     {
@@ -34,13 +36,40 @@ const menu = [
     }
 ];
 
+const companyLogo = [
+    {
+        alt: 'Ariel',
+        src: ArielLogo,
+    },
+    {
+        alt: 'Vizir',
+        src: VizirLogo,
+    },
+    {
+        alt: 'Persil',
+        src: PersilLogo,
+    },
+    {
+        alt: 'Calgon',
+        src: CalgonLogo,
+    },
+    {
+        alt: 'Vanish',
+        src: VanishLogo,
+    },
+    {
+        alt: 'Pur',
+        src: PurLogo,
+    }
+];
+
 const IndexPage = () => {
     return (
         <Layout>
             <LayoutHeader menu={menu}/>
 
             <LayoutSection
-                bgColor={'white'}
+                backgroundColor={'white'}
                 minHeight={'100vh'}>
                 <div className={'container'}>
                     <div className={'row align-items-center'}>
@@ -64,40 +93,28 @@ const IndexPage = () => {
                         </div>
 
                         <div className={'col-lg-7 px-5'}>
-                            <img src={Charwoman} className={'img-fluid'} alt={'Sprzątaczka'}/>
+                            <img
+                                src={Charwoman}
+                                className={'img-fluid'}
+                                alt={'Sprzątaczka'}/>
                         </div>
                     </div>
+                </div>
 
-                    <div className={'row align-items-center py-5'}>
-                        <div className={'fw-bold col-lg-auto'}>
+                <Divider/>
+
+                <div className={'container'}>
+                    <div className={'row align-items-center py-3'}>
+                        <div className={'fw-bold col-lg-auto py-3'}>
                             Sprzedajemy <br/> artykuły takich firm:
                         </div>
 
                         <div className={'col-lg'}>
                             <div className={'row row-cols-6 align-items-center'}>
-                                <div>
-                                    <img src={ArielLogo} className={'img-fluid'} alt={'Sprzątaczka'}/>
-                                </div>
-
-                                <div>
-                                    <img src={VizirLogo} className={'img-fluid'} alt={'Sprzątaczka'}/>
-                                </div>
-
-                                <div>
-                                    <img src={PersilLogo} className={'img-fluid'} alt={'Sprzątaczka'}/>
-                                </div>
-
-                                <div>
-                                    <img src={CalgonLogo} className={'img-fluid'} alt={'Sprzątaczka'}/>
-                                </div>
-
-                                <div>
-                                    <img src={VanishLogo} className={'img-fluid'} alt={'Sprzątaczka'}/>
-                                </div>
-
-                                <div>
-                                    <img src={PurLogo} className={'img-fluid'} alt={'Sprzątaczka'}/>
-                                </div>
+                                {
+                                    companyLogo.map(({src, alt}) =>
+                                        (<CompanyLogo src={src} alt={alt}/>))
+                                }
                             </div>
                         </div>
                     </div>
@@ -105,8 +122,39 @@ const IndexPage = () => {
             </LayoutSection>
 
             <LayoutSection
-                bgColor={'transparent'}
+                backgroundColor={'transparent'}
                 minHeight={'100vh'}>
+                <div className={'container'}>
+                    <div className={'row'}>
+                        <div className={'col-lg-5 py-5'}>
+                            <div className={'text-uppercase fw-bold'}>O firmie</div>
+                            <div className={'display-6 text-uppercase fw-bold mb-3'}>
+                                30 lat doświadczenia
+                            </div>
+
+                            <p className={'fw-bold'}>
+                                Nasza firma działa w branży chemiczno-papierniczej dokładnie od 13 grudnia 1990 roku na
+                                terenie województwa mazowieckiego i lubelskiego.
+                            </p>
+
+                            <p className={'text-justify'}>
+                                W ofercie mamy artykuły szkolne, papiernicze, biurowe, kosmetyki i środki higieny,
+                                artykuły kuchenne, środki czyszczące,akcesoria i sprzęt do sprzątania, znicze oraz wiele
+                                innych. Współpracujemy z importerami z całego kraju, dlatego posiadamy w ofercie
+                                produkty różnych marek. Dzięki zdobytemu przez lata doświadczeniu poznaliśmy oczekiwania
+                                i potrzeby naszych Klientów. Nasi pracownicy chętnie pomogą w wyborze odpowiedniego
+                                produktu do potrzeb każdego. Obsługujemy zarówno osoby prywatne, jak i firmy, sklepy,
+                                szkoły, urzędy czy banki. Przy większych zamówieniach oferujemy bezpłatną dostawę
+                                towaru. Zapraszamy do zapoznania się z naszą ofertą oraz do odwiedzenia siedziby Zakładu
+                                Handlowego w Żelechowie, gdzie można bezpośrednio dokonać zakupów. Zamówienia można
+                                składać również telefonicznie i mailowo.
+                            </p>
+                        </div>
+
+                        <div className={'col-lg-7'}>
+                        </div>
+                    </div>
+                </div>
             </LayoutSection>
         </Layout>
     )

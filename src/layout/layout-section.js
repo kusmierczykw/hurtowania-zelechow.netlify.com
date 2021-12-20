@@ -1,9 +1,9 @@
 import * as React from 'react';
 import './layout-section.scss';
 
-export const LayoutSection = ({children, bgColor, minHeight}) => {
+export const LayoutSection = ({children, backgroundColor, minHeight}) => {
     const stylesObject = {
-        backgroundColor: bgColor,
+        backgroundColor: backgroundColor,
         minHeight: minHeight,
     };
 
