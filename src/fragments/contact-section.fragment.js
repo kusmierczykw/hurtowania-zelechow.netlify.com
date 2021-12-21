@@ -6,14 +6,14 @@ import Supplies from '../images/supplies.png';
 export const ContactSection = () => {
     return (
         <div className={'row align-items-center'}>
-            <div className={'col-lg-5'}>
+            <div className={'col-lg-4 order-last order-lg-first'}>
                 <img
                     src={Supplies}
                     className={'img-fluid'}
                     alt={'Środki'}/>
             </div>
 
-            <div className={'col-lg-7'}>
+            <div className={'col-lg-7 offset-lg-1 order-first order-lg-last py-5'}>
                 <span className={'text-uppercase'}>Masz pytanie? Chcesz złożyć zamówienie?</span>
                 <SectionSubtitle subtitle={'Skontaktuj się z nami!'}/>
 

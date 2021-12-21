@@ -74,8 +74,7 @@ const IndexPage = () => {
             <LayoutHeader menu={menu}/>
 
             <LayoutSection
-                backgroundColor={'white'}
-                minHeight={'100vh'}>
+                backgroundColor={'white'}>
                 <div className={'container'}>
                     <div className={'row align-items-center'}>
                         <div className={'col-lg-5 py-5'}>
@@ -153,7 +152,7 @@ const IndexPage = () => {
                             </p>
                         </div>
 
-                        <div className={'col-lg-7 py-5 text-center'}>
+                        <div className={'col-lg-7 py-lg-5 text-center'}>
                             <img
                                 src={Biuro}
                                 alt={'Nasze biuro'}
@@ -172,6 +171,31 @@ const IndexPage = () => {
             <LayoutSection backgroundColor={'white'}>
                 <div className={'container'}>
                     <ContactSection/>
+                </div>
+            </LayoutSection>
+
+            <LayoutSection backgroundColor={'transparent'}>
+                <div className={'container'}>
+                    <div className={'text-center py-5'}>
+                        <SectionTitle title={'Oferta'}/>
+                        <SectionSubtitle subtitle={'Poznaj naszą ofertę'}/>
+                    </div>
+                </div>
+            </LayoutSection>
+
+            <LayoutSection backgroundColor={'white'}>
+                <div className={'container'}>
+                    <ContactSection/>
+                </div>
+            </LayoutSection>
+
+
+            <LayoutSection backgroundColor={'transparent'}>
+                <div className={'container'}>
+                    <div className={'text-center py-5'}>
+                        <SectionTitle title={'Opinie klientów'}/>
+                        <SectionSubtitle subtitle={'Co mówią o nas klienci?'}/>
+                    </div>
                 </div>
             </LayoutSection>
         </Layout>
