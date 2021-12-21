@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Layout} from '../layout/layout';
 import {LayoutHeader} from '../layout/layout-header';
 import {LayoutSection} from '../layout/layout-section';
-import Charwoman from '../images/charwoman@2x.png';
+import Charwoman from '../images/charwoman.png';
 import CalgonLogo from '../images/calgon-logo.png';
 import VanishLogo from '../images/vanish-logo.png';
 import ArielLogo from '../images/ariel-logo.png';
@@ -12,6 +12,11 @@ import PurLogo from '../images/pur-logo.png';
 import {ButtonLink} from "../fragments/button-link";
 import {CompanyLogo} from "../fragments/company-logo.fragment";
 import {Divider} from "../fragments/divider.fragment";
+import Biuro from '../images/biuro.png'
+import Hurtownia from '../images/hurtownia.png'
+import {SectionTitle} from "../fragments/section-title.fragment";
+import {SectionSubtitle} from "../fragments/section-subtitle.fragment";
+import {ContactSection} from "../fragments/contact-section.fragment";
 
 const menu = [
     {
@@ -122,17 +127,14 @@ const IndexPage = () => {
             </LayoutSection>
 
             <LayoutSection
-                backgroundColor={'transparent'}
-                minHeight={'100vh'}>
+                backgroundColor={'transparent'}>
                 <div className={'container'}>
-                    <div className={'row'}>
+                    <div className={'row align-items-center'}>
                         <div className={'col-lg-5 py-5'}>
-                            <div className={'text-uppercase fw-bold'}>O firmie</div>
-                            <div className={'display-6 text-uppercase fw-bold mb-3'}>
-                                30 lat doświadczenia
-                            </div>
+                            <SectionTitle title={'O firmie'}/>
+                            <SectionSubtitle subtitle={'30 lat doświadczenia'}/>
 
-                            <p className={'fw-bold'}>
+                            <p className={'fw-bold mt-3'}>
                                 Nasza firma działa w branży chemiczno-papierniczej dokładnie od 13 grudnia 1990 roku na
                                 terenie województwa mazowieckiego i lubelskiego.
                             </p>
@@ -151,9 +153,25 @@ const IndexPage = () => {
                             </p>
                         </div>
 
-                        <div className={'col-lg-7'}>
+                        <div className={'col-lg-7 py-5 text-center'}>
+                            <img
+                                src={Biuro}
+                                alt={'Nasze biuro'}
+                                className={'img-fluid'}
+                            />
+                            <img
+                                src={Hurtownia}
+                                alt={'Nasza hurtownia'}
+                                className={'img-fluid'}
+                                style={{marginLeft: '-4rem', marginTop: '-4rem'}}/>
                         </div>
                     </div>
+                </div>
+            </LayoutSection>
+
+            <LayoutSection backgroundColor={'white'}>
+                <div className={'container'}>
+                    <ContactSection/>
                 </div>
             </LayoutSection>
         </Layout>
