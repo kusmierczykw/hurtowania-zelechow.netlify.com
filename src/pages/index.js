@@ -9,14 +9,14 @@ import ArielLogo from '../images/ariel-logo.png';
 import VizirLogo from '../images/vizir-logo.png';
 import PersilLogo from '../images/persil-logo.png';
 import PurLogo from '../images/pur-logo.png';
-import {ButtonLink} from "../fragments/button-link";
-import {CompanyLogo} from "../fragments/company-logo.fragment";
-import {Divider} from "../fragments/divider.fragment";
+import {ButtonLink} from '../fragments/button-link';
+import {CompanyLogo} from '../fragments/company-logo.fragment';
+import {Divider} from '../fragments/divider.fragment';
 import Biuro from '../images/biuro.png'
 import Hurtownia from '../images/hurtownia.png'
-import {SectionTitle} from "../fragments/section-title.fragment";
-import {SectionSubtitle} from "../fragments/section-subtitle.fragment";
-import {ContactSection} from "../fragments/contact-section.fragment";
+import {SectionTitle} from '../fragments/section-title.fragment';
+import {SectionSubtitle} from '../fragments/section-subtitle.fragment';
+import {ContactSection} from '../fragments/contact-section.fragment';
 
 const menu = [
     {
