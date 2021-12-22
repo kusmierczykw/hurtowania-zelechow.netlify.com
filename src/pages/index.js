@@ -2,21 +2,20 @@ import * as React from 'react';
 import {Layout} from '../layout/layout';
 import {LayoutHeader} from '../layout/layout-header';
 import {LayoutSection} from '../layout/layout-section';
-import Charwoman from '../images/charwoman.png';
 import CalgonLogo from '../images/calgon-logo.png';
 import VanishLogo from '../images/vanish-logo.png';
 import ArielLogo from '../images/ariel-logo.png';
 import VizirLogo from '../images/vizir-logo.png';
 import PersilLogo from '../images/persil-logo.png';
 import PurLogo from '../images/pur-logo.png';
-import {ButtonLink} from '../fragments/button-link';
-import {CompanyLogo} from '../fragments/company-logo.fragment';
 import {Divider} from '../fragments/divider.fragment';
-import Biuro from '../images/biuro.png'
-import Hurtownia from '../images/hurtownia.png'
 import {SectionTitle} from '../fragments/section-title.fragment';
 import {SectionSubtitle} from '../fragments/section-subtitle.fragment';
 import {ContactSection} from '../fragments/contact-section.fragment';
+import {AboutCompanySection} from '../fragments/about-company-section.fragment';
+import {CompaniesSection} from '../fragments/companies-section.fragment';
+import {MainSection} from '../fragments/main-section.fragment';
+import {OfferSection} from '../fragments/offer-section.fragment';
 
 const menu = [
     {
@@ -41,30 +40,249 @@ const menu = [
     }
 ];
 
-const companyLogo = [
+const companies = [
     {
         alt: 'Ariel',
         src: ArielLogo,
+        key: '68fe95b9-c629-4cc7-bb06-a318ad2a753f'
     },
     {
         alt: 'Vizir',
         src: VizirLogo,
+        key: '7ff656a8-c77c-41d1-868e-a98c3368b355'
     },
     {
         alt: 'Persil',
         src: PersilLogo,
+        key: 'ec75275f-8801-4ce7-8e73-9f892fe594ef'
     },
     {
         alt: 'Calgon',
         src: CalgonLogo,
+        key: 'b7963bed-64bf-4f03-aede-8e84a0b94123'
     },
     {
         alt: 'Vanish',
         src: VanishLogo,
+        key: 'f540acee-b38a-4551-a47a-f83dbf0d003e'
     },
     {
         alt: 'Pur',
         src: PurLogo,
+        key: '63976937-a3f5-4483-802f-a41c0cceed5d'
+    }
+];
+
+const products = [
+    {
+        id: '0503aa1a-318a-45e1-9a2c-49ed267235f7',
+        title: 'Artykuły papiernicze',
+        content: [
+            [
+                {
+                    title: 'książeczki do kolorowania'
+                },
+                {
+                    title: 'podkłady pod biurko z kalendarzem'
+                },
+                {
+                    title: 'kartki świąteczne, okolicznościowe i pocztówki'
+                },
+                {
+                    title: 'zaproszenia na uroczystości'
+                },
+                {
+                    title: 'kalendarze',
+                },
+                {
+                    title: 'koperty',
+                },
+            ],
+            [
+                {
+                    title: 'notesy',
+                },
+                {
+                    title: 'brystole',
+                },
+                {
+                    title: 'zeszyty',
+                },
+                {
+                    title: 'bloki',
+                },
+                {
+                    title: 'dzienniczki ucznia',
+                }
+            ],
+        ],
+    },
+    {
+        id: '09444e5d-48ab-44a9-97db-6669dc1753c7',
+        title: 'Artykuły szkolne i biurowe',
+        content: [
+            [
+                {
+                    title: 'tablice korkowe',
+                },
+                {
+                    title: 'sprężone powietrze',
+                },
+                {
+                    title: 'ściereczki do monitora',
+                },
+                {
+                    title: 'spraye do czyszczenia monitorów',
+                },
+                {
+                    title: 'płyty CD, DVD',
+                },
+                {
+                    title: 'segregatory, przekładki do segregatora',
+                },
+                {
+                    title: 'teczki, skoroszyty',
+                },
+                {
+                    title: 'koszulki na dokumenty',
+                },
+                {
+                    title: 'papier xero',
+                },
+                {
+                    title: 'papier foto',
+                },
+                {
+                    title: 'niszczarka do dokumentów',
+                },
+                {
+                    title: 'pendrive USB',
+                },
+                {
+                    title: 'rolki kasowe',
+                },
+                {
+                    title: 'tusze do drukarki',
+                },
+                {
+                    title: 'gumki recepturki',
+                },
+                {
+                    title: 'spinacze biurowe',
+                },
+                {
+                    title: 'dziurkacze',
+                },
+                {
+                    title: 'zszywacze, zszywki',
+                },
+                {
+                    title: 'poduszki do pieczątek',
+                },
+                {
+                    title: 'baterie alkaiczne i zwykłe',
+                },
+            ],
+            [
+                {
+                    title: 'breloki do kluczy',
+                },
+                {
+                    title: 'długopisy, ołówki, korektory, zakreślacie, flamastry, pióra, kredki',
+                },
+                {
+                    title: 'wkłady do długopisu, ołówka, pióra',
+                },
+                {
+                    title: 'farby plakatowe, akrylowe',
+                },
+                {
+                    title: 'pędzle',
+                },
+                {
+                    title: 'piórniki',
+                },
+                {
+                    title: 'taśmy klejące',
+                },
+                {
+                    title: 'kleje',
+                },
+                {
+                    title: 'kredy do pisania po tablicy',
+                },
+                {
+                    title: 'modelina, plastelina',
+                },
+                {
+                    title: 'kalkulatory',
+                },
+                {
+                    title: 'linijki, ekierki, kątomierze',
+                },
+                {
+                    title: 'cyrkle',
+                },
+                {
+                    title: 'nożyczki',
+                },
+                {
+                    title: 'temperówki',
+                },
+                {
+                    title: 'gumki do ścierania',
+                },
+                {
+                    title: 'szpilki',
+                },
+                {
+                    title: 'pisaki do tablicy',
+                },
+                {
+                    title: 'kleje do pistoletu',
+                }
+            ],
+        ]
+    },
+    {
+        id: '23ee5fcf-8215-4561-9e6e-e094d478a265',
+        title: 'Artykuły kreatywne i do gry',
+    },
+    {
+        id: '3f646840-7f82-40d6-80ef-bd91a13ca590',
+        title: 'Kosmetyki i środki higieny',
+    },
+    {
+        id: '9dc0e0c5-4427-4123-b89f-f703d699b3b0',
+        title: 'Artykuły kuchenne',
+    },
+    {
+        id: '7457c485-426a-499e-9fba-493ee3b57df8',
+        title: 'Artykuły do grilla',
+    },
+    {
+        id: 'dc46e2c2-f70c-4e37-a78e-5338ff368948',
+        title: 'Środki czyszczące',
+    },
+    {
+        id: 'e91df5f8-17ca-4cdb-80bd-66e1961efddb',
+        title: 'Akcesoria i sprzęt do sprzątania',
+    },
+    {
+        id: '259e4d1c-5fa8-479c-b380-4ab7a647aba1',
+        title: 'Znicze i wkłady do zniczy',
+    },
+    {
+        id: 'dcfae348-b041-4bf1-8bfb-598cf7483e6d',
+        title: 'Artykuły ogrodnicze',
+    },
+    {
+        id: '61ef886d-3ea7-4b6a-a439-9948f8f41dca',
+        title: 'Artykuły lecznicze',
+    },
+    {
+        id: 'ba2448e9-72b0-4c00-a83c-80d47f40ee42',
+        title: 'Pozostałe produkty',
     }
 ];
 
@@ -73,98 +291,21 @@ const IndexPage = () => {
         <Layout>
             <LayoutHeader menu={menu}/>
 
-            <LayoutSection
-                backgroundColor={'white'}>
+            <LayoutSection backgroundColor={'white'}>
                 <div className={'container'}>
-                    <div className={'row align-items-center'}>
-                        <div className={'col-lg-5 py-5'}>
-                            <div className={'display-6 text-uppercase fw-lighter'}>
-                                Sprzedaż hurtowa
-                            </div>
-
-                            <div className={'display-6 text-uppercase fw-bold'}>
-                                Art. przemysłowych i chemii gospodarczej
-                            </div>
-
-                            <p className={'mt-3 mb-5'}>
-                                Artykuły biurowe, kosmetyki, środki higieny, środki czystości, akcesoria i sprzęt do
-                                sprzątania
-                            </p>
-
-                            <ButtonLink
-                                href={'#oferta'}
-                                label={'Dowiedz się więcej'}/>
-                        </div>
-
-                        <div className={'col-lg-7 px-5'}>
-                            <img
-                                src={Charwoman}
-                                className={'img-fluid'}
-                                alt={'Sprzątaczka'}/>
-                        </div>
-                    </div>
+                    <MainSection/>
                 </div>
 
                 <Divider/>
 
                 <div className={'container'}>
-                    <div className={'row align-items-center py-3'}>
-                        <div className={'fw-bold col-lg-auto py-3'}>
-                            Sprzedajemy <br/> artykuły takich firm:
-                        </div>
-
-                        <div className={'col-lg'}>
-                            <div className={'row row-cols-6 align-items-center'}>
-                                {
-                                    companyLogo.map(({src, alt}) =>
-                                        (<CompanyLogo src={src} alt={alt}/>))
-                                }
-                            </div>
-                        </div>
-                    </div>
+                    <CompaniesSection companies={companies}/>
                 </div>
             </LayoutSection>
 
-            <LayoutSection
-                backgroundColor={'transparent'}>
+            <LayoutSection backgroundColor={'transparent'}>
                 <div className={'container'}>
-                    <div className={'row align-items-center'}>
-                        <div className={'col-lg-5 py-5'}>
-                            <SectionTitle title={'O firmie'}/>
-                            <SectionSubtitle subtitle={'30 lat doświadczenia'}/>
-
-                            <p className={'fw-bold mt-3'}>
-                                Nasza firma działa w branży chemiczno-papierniczej dokładnie od 13 grudnia 1990 roku na
-                                terenie województwa mazowieckiego i lubelskiego.
-                            </p>
-
-                            <p className={'text-justify'}>
-                                W ofercie mamy artykuły szkolne, papiernicze, biurowe, kosmetyki i środki higieny,
-                                artykuły kuchenne, środki czyszczące,akcesoria i sprzęt do sprzątania, znicze oraz wiele
-                                innych. Współpracujemy z importerami z całego kraju, dlatego posiadamy w ofercie
-                                produkty różnych marek. Dzięki zdobytemu przez lata doświadczeniu poznaliśmy oczekiwania
-                                i potrzeby naszych Klientów. Nasi pracownicy chętnie pomogą w wyborze odpowiedniego
-                                produktu do potrzeb każdego. Obsługujemy zarówno osoby prywatne, jak i firmy, sklepy,
-                                szkoły, urzędy czy banki. Przy większych zamówieniach oferujemy bezpłatną dostawę
-                                towaru. Zapraszamy do zapoznania się z naszą ofertą oraz do odwiedzenia siedziby Zakładu
-                                Handlowego w Żelechowie, gdzie można bezpośrednio dokonać zakupów. Zamówienia można
-                                składać również telefonicznie i mailowo.
-                            </p>
-                        </div>
-
-                        <div className={'col-lg-7 py-lg-5 text-center'}>
-                            <img
-                                src={Biuro}
-                                alt={'Nasze biuro'}
-                                className={'img-fluid'}
-                            />
-                            <img
-                                src={Hurtownia}
-                                alt={'Nasza hurtownia'}
-                                className={'img-fluid'}
-                                style={{marginLeft: '-4rem', marginTop: '-4rem'}}/>
-                        </div>
-                    </div>
+                    <AboutCompanySection/>
                 </div>
             </LayoutSection>
 
@@ -176,10 +317,7 @@ const IndexPage = () => {
 
             <LayoutSection backgroundColor={'transparent'}>
                 <div className={'container'}>
-                    <div className={'text-center py-5'}>
-                        <SectionTitle title={'Oferta'}/>
-                        <SectionSubtitle subtitle={'Poznaj naszą ofertę'}/>
-                    </div>
+                    <OfferSection products={products}/>
                 </div>
             </LayoutSection>
 
@@ -188,7 +326,6 @@ const IndexPage = () => {
                     <ContactSection/>
                 </div>
             </LayoutSection>
-
 
             <LayoutSection backgroundColor={'transparent'}>
                 <div className={'container'}>
