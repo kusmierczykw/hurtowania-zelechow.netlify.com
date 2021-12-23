@@ -1,0 +1,7 @@
+.accordion-button {
+  &.no-content {
+    &::after {
+      content: none;
+    }
+  }
+}

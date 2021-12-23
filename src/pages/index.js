@@ -247,26 +247,407 @@ const products = [
     {
         id: '23ee5fcf-8215-4561-9e6e-e094d478a265',
         title: 'Artykuły kreatywne i do gry',
+        content: [
+            [
+                {
+                    title: 'świeczki urodzinowe',
+                },
+                {
+                    title: 'bańki mydlane',
+                },
+                {
+                    title: 'pistolety na wodę',
+                },
+                {
+                    title: 'zimne ognie',
+                },
+                {
+                    title: 'balony gumowe',
+                },
+                {
+                    title: 'styropianowe kule, choinki itp.',
+                },
+            ],
+            [
+                {
+                    title: 'torebki ozdobne na prezent',
+                },
+                {
+                    title: 'wstążki',
+                },
+                {
+                    title: 'flety do gry',
+                },
+                {
+                    title: 'karty do gry',
+                },
+                {
+                    title: 'gry planszowe, puzzle',
+                },
+                {
+                    title: 'rakietki do ping-ponga',
+                }
+            ]
+        ],
     },
     {
         id: '3f646840-7f82-40d6-80ef-bd91a13ca590',
         title: 'Kosmetyki i środki higieny',
+        content: [
+            [
+                {
+                    title: 'dezodoranty męskie, damskie',
+                },
+                {
+                    title: 'antyperspiranty',
+                },
+                {
+                    title: 'perfumy',
+                },
+                {
+                    title: 'wsuwki do włosów',
+                },
+                {
+                    title: 'grzebienie, szczotki do włosów',
+                },
+                {
+                    title: 'szampony, lakiery, pianki do włosów',
+                },
+                {
+                    title: 'żele, odżywki do włosów',
+                },
+                {
+                    title: 'gumki do włosów',
+                },
+                {
+                    title: 'płyny do kąpieli',
+                },
+                {
+                    title: 'żele pod prysznic',
+                },
+                {
+                    title: 'gąbki do kąpieli',
+                },
+                {
+                    title: 'płyny do higieny intymnej',
+                },
+                {
+                    title: 'mydła, mydelniczki',
+                },
+                {
+                    title: 'sole do kąpieli',
+                },
+                {
+                    title: 'płyny, kremy, balsamy po goleniu ',
+                },
+                {
+                    title: 'wody kolońskie',
+                },
+                {
+                    title: 'pianki, żele do golenia',
+                },
+                {
+                    title: 'maszynki, żyletki do golenia',
+                },
+                {
+                    title: 'lusterka',
+                },
+                {
+                    title: 'płyny do jamy ustnej',
+                },
+            ],
+            [
+                {
+                    title: 'pasty do zębów',
+                },
+                {
+                    title: 'patyczki kosmetyczne, płatki kosmetyczne',
+                },
+                {
+                    title: 'kremy',
+                },
+                {
+                    title: 'lakiery, zmywacze do paznokci',
+                },
+                {
+                    title: 'pomadki do ust',
+                },
+                {
+                    title: 'pumeksy kosmetyczne, tarki do pięt',
+                },
+                {
+                    title: 'prezerwatywy',
+                },
+                {
+                    title: 'pampersy',
+                },
+                {
+                    title: 'pieluchy dla dorosłych',
+                },
+                {
+                    title: 'pieluchy tetrowe',
+                },
+                {
+                    title: 'podpaski',
+                },
+                {
+                    title: 'tampony',
+                },
+                {
+                    title: 'wkładki higieniczne',
+                },
+                {
+                    title: 'chustki higieniczne, chustki nawilżające',
+                },
+                {
+                    title: 'papiery toaletowe',
+                },
+                {
+                    title: 'ręczniki papierowe',
+                },
+                {
+                    title: 'rajstopy',
+                },
+                {
+                    title: 'podkolanówki',
+                },
+                {
+                    title: 'skarpety',
+                },
+                {
+                    title: 'zestawy krawieckie',
+                }
+            ],
+        ],
     },
     {
         id: '9dc0e0c5-4427-4123-b89f-f703d699b3b0',
         title: 'Artykuły kuchenne',
+        content: [
+            [
+                {
+                    title: 'druciaki, gąbki do mycia naczyń',
+                },
+                {
+                    title: 'preparaty do odkamieniania zmywarek',
+                },
+                {
+                    title: 'serwetki',
+                },
+                {
+                    title: 'świece stołowe',
+                },
+                {
+                    title: 'papiery do pieczenia, rękawy do pieczenia',
+                },
+                {
+                    title: 'ceraty na stół',
+                },
+                {
+                    title: 'zmywaki kuchenne',
+                },
+                {
+                    title: 'reklamówki',
+                }
+            ],
+            [
+                {
+                    title: 'folie stretch',
+                },
+                {
+                    title: 'woreczki strunowe, śniadaniowe',
+                },
+                {
+                    title: 'folie aluminiowe',
+                },
+                {
+                    title: 'herbaty',
+                },
+                {
+                    title: 'kawy',
+                },
+                {
+                    title: 'wykałaczki',
+                },
+                {
+                    title: 'miski na zupę',
+                },
+                {
+                    title: 'mieszadełka',
+                }
+            ]
+        ]
     },
     {
         id: '7457c485-426a-499e-9fba-493ee3b57df8',
         title: 'Artykuły do grilla',
+        content: [
+            [
+                {
+                    title: 'węgiel drzewny',
+                },
+                {
+                    title: 'podpałki do grilla',
+                },
+                {
+                    title: 'zapałki',
+                }
+            ],
+            [
+                {
+                    title: 'patyczki do szaszłyków',
+                },
+                {
+                    title: 'plastikowe widelce, noże, łyżki, łyżeczki, talerze',
+                },
+                {
+                    title: 'plastikowe kieliszki, kubki',
+                }
+            ]
+        ]
     },
     {
         id: 'dc46e2c2-f70c-4e37-a78e-5338ff368948',
         title: 'Środki czyszczące',
+        content: [
+            [
+                {
+                    title: 'odrdzewiacze, odtłuszczacze',
+                },
+                {
+                    title: 'odkamieniacze do zmywarek',
+                },
+                {
+                    title: 'płyny do naczyń',
+                },
+                {
+                    title: 'płyny do czyszczenia zmywarki',
+                },
+                {
+                    title: 'tabletki do zmywarki',
+                },
+                {
+                    title: 'żele, mleczka, spraye do czyszczenia łazienki i kuchni',
+                },
+                {
+                    title: 'żele, płyny do kamienia i rdzy',
+                },
+                {
+                    title: 'płyny do czyszczenia pralki',
+                },
+                {
+                    title: 'płyny do płukania',
+                },
+                {
+                    title: 'żele i płyny do czyszczenia WC',
+                },
+                {
+                    title: 'kostki i koszyczki do WC',
+                },
+                {
+                    title: 'wybielacze do prania',
+                },
+                {
+                    title: 'proszki do prania',
+                },
+                {
+                    title: 'krochmale',
+                }
+            ],
+            [
+                {
+                    title: 'odplamiacze',
+                },
+                {
+                    title: 'proszki do firan',
+                },
+                {
+                    title: 'pianki do dywanów',
+                },
+                {
+                    title: 'płyny do czyszczenia dywanów',
+                },
+                {
+                    title: 'preparaty do mycia mebli, paneli, drewna, szyb, kamienia, glazury, terakoty, PCV',
+                },
+                {
+                    title: 'płyny do szyb',
+                },
+                {
+                    title: 'środki do czyszczenia nagrobków',
+                },
+                {
+                    title: 'pasty BHP',
+                },
+                {
+                    title: 'pasty do butów',
+                },
+                {
+                    title: 'mleczka do czyszczenia powierzchni skórzanych',
+                },
+                {
+                    title: 'środki do dezynfekcji',
+                },
+                {
+                    title: 'preparaty do rur',
+                },
+                {
+                    title: 'preparaty do szamba',
+                }
+            ]
+        ],
     },
     {
         id: 'e91df5f8-17ca-4cdb-80bd-66e1961efddb',
         title: 'Akcesoria i sprzęt do sprzątania',
+        content: [
+            [
+                {
+                    title: 'rękawice robocze, kuchenne, foliowe, nitrylowe, gumowe, lateksowe, gospodarcze, ochronne',
+                },
+                {
+                    title: 'ochraniacze na buty',
+                },
+                {
+                    title: 'linki i spinacze do bielizny',
+                },
+                {
+                    title: 'mopy i kije do mopa',
+                },
+                {
+                    title: 'trzonki do grabi',
+                },
+                {
+                    title: 'ścierki',
+                },
+                {
+                    title: 'miotły',
+                }
+            ],
+            [
+                {
+                    title: 'zmiotki i szufelki',
+                },
+                {
+                    title: 'kosze i worki na śmieci',
+                },
+                {
+                    title: 'wiadra',
+                },
+                {
+                    title: 'pompki do umywalki',
+                },
+                {
+                    title: 'rolki czyszczące do ubrań',
+                },
+                {
+                    title: 'odświeżacze samochodowe',
+                },
+                {
+                    title: 'odświeżacze powietrza',
+                }
+            ]
+        ]
     },
     {
         id: '259e4d1c-5fa8-479c-b380-4ab7a647aba1',
@@ -275,14 +656,89 @@ const products = [
     {
         id: 'dcfae348-b041-4bf1-8bfb-598cf7483e6d',
         title: 'Artykuły ogrodnicze',
+        content: [
+            [
+                {
+                    title: 'nawóz do trawy i kwiatów',
+                },
+                {
+                    title: 'ziemia uniwersalna',
+                },
+                {
+                    title: 'spraye na owady, muchy, kleszcze, mole, mszyce',
+                }
+            ],
+            [
+                {
+                    title: 'preparaty na myszy, szczury, krety, nornice',
+                },
+                {
+                    title: 'pułapki na krety, myszy',
+                }
+            ]
+        ]
     },
     {
         id: '61ef886d-3ea7-4b6a-a439-9948f8f41dca',
         title: 'Artykuły lecznicze',
+        content: [
+            [
+                {
+                    title: 'plastry opatrunkowe',
+                },
+                {
+                    title: 'tabletki przeciwbólowe',
+                },
+                {
+                    title: 'woda utleniona',
+                }
+            ],
+            [
+                {
+                    title: 'wata',
+                },
+                {
+                    title: 'spirytus salicylowy',
+                }
+            ]
+        ]
     },
     {
         id: 'ba2448e9-72b0-4c00-a83c-80d47f40ee42',
         title: 'Pozostałe produkty',
+        content: [
+            [
+                {
+                    title: 'gaz w butli',
+                },
+                {
+                    title: 'żarówki',
+                },
+                {
+                    title: 'woda destylowana ',
+                },
+                {
+                    title: 'denaturat ',
+                },
+                {
+                    title: 'wycieraczki gumowe',
+                }
+            ],
+            [
+                {
+                    title: 'latarki',
+                },
+                {
+                    title: 'gazy do zapalniczek',
+                },
+                {
+                    title: 'płaszcze przeciwdeszczowe',
+                },
+                {
+                    title: 'płyny do spryskiwaczy',
+                }
+            ]
+        ]
     }
 ];
 

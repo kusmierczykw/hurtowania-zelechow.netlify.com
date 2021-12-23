@@ -13,19 +13,10 @@ export const ProductAccordion = ({accordions}) => {
                     <ProductAccordionItem
                         id={id}
                         key={id}
-                        title={title}>
-                        {
-                            content
-                                ? content?.map((section, index) => (
-                                    <ul key={index}>
-                                        {
-                                            section.map(({title}, index) => (<li key={index}>{title}</li>))
-                                        }
-                                    </ul>
-                                ))
-                                : 'brak'
-                        }
-                    </ProductAccordionItem>
+                        title={title}
+                        accordionName={accordionName}
+                        content={content}
+                    />
                 ))
             }
         </div>
