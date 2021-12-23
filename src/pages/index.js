@@ -16,7 +16,7 @@ import {AboutCompanySection} from '../fragments/about-company-section.fragment';
 import {CompaniesSection} from '../fragments/companies-section.fragment';
 import {MainSection} from '../fragments/main-section.fragment';
 import {OfferSection} from '../fragments/offer-section.fragment';
-import {CommentsCarousel} from "../fragments/comments-carousel.fragment";
+import {CommentsCarousel} from '../fragments/comments-carousel.fragment';
 
 const menu = [
     {
