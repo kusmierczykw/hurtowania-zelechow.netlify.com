@@ -2,7 +2,7 @@ import * as React from 'react';
 import './product-accordion-item.fragment.scss';
 
 export const ProductAccordionItem = ({id, title, content, accordionName}) => {
-    const accordionButtonClassArray = ['accordion-button', 'collapsed', !content && 'no-content'];
+    const accordionButtonClassArray = ['accordion-button', 'collapsed', !content && 'no-content'].filter(Boolean);
     const accordionButtonClass = accordionButtonClassArray.join(' ');
     const accordionBody = content && (
         <div
@@ -14,8 +14,8 @@ export const ProductAccordionItem = ({id, title, content, accordionName}) => {
                 <div className='row'>
                     {
                         content.map((section, index) => (
-                            <div className={'col-lg'}>
-                                <ul key={index}>
+                            <div className={'col-lg py-3'}>
+                                <ul key={index} className={'mb-0'}>
                                     {
                                         section?.map(({title}, index) => (<li key={index}>{title}</li>))
                                     }

@@ -1,5 +1,10 @@
+@use '../variables/colors';
+
 // Required
 @import 'node_modules/bootstrap/scss/functions';
+
+$blue: colors.$blue;
+
 @import 'node_modules/bootstrap/scss/variables';
 @import 'node_modules/bootstrap/scss/mixins';
 @import 'node_modules/bootstrap/scss/root';
@@ -15,6 +20,7 @@
 @import 'node_modules/bootstrap/scss/navbar';
 @import 'node_modules/bootstrap/scss/accordion';
 @import 'node_modules/bootstrap/scss/transitions';
+@import 'node_modules/bootstrap/scss/carousel';
 
 // API
 @import 'node_modules/bootstrap/scss/utilities/api';

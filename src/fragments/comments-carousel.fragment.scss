@@ -1,0 +1,43 @@
+@use '../styles/variables/colors' as *;
+
+.carousel-control-prev,
+.carousel-control-next {
+  transform: translateY(-50%);
+  top: 50%;
+  bottom: auto;
+  width: auto;
+  padding: 1rem;
+  background-color: $blue;
+  border-radius: 100%;
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+
+.carousel-control-prev {
+  left: -5%;
+}
+
+.carousel-control-next {
+  right: -5%;
+}
+
+.carousel-indicators {
+  position: static;
+  margin-top: 1rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid $blue;
+  background-color: transparent;
+
+  &.active {
+    background-color: $blue;
+  }
+}

@@ -1,0 +1,8 @@
+@use '../styles/variables/colors' as *;
+
+.carousel-item {
+  .icon {
+    color: $blue;
+  }
+}
+
