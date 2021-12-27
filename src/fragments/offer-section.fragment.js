@@ -1,7 +1,7 @@
+import * as React from 'react';
 import {SectionTitle} from './section-title.fragment';
 import {SectionSubtitle} from './section-subtitle.fragment';
 import {ProductAccordion} from './product-accordion.fragment';
-import * as React from 'react';
 
 export const OfferSection = ({products}) => {
     return (

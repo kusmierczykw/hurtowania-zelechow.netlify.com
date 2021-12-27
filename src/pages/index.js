@@ -9,14 +9,13 @@ import VizirLogo from '../images/vizir-logo.png';
 import PersilLogo from '../images/persil-logo.png';
 import PurLogo from '../images/pur-logo.png';
 import {Divider} from '../fragments/divider.fragment';
-import {SectionTitle} from '../fragments/section-title.fragment';
-import {SectionSubtitle} from '../fragments/section-subtitle.fragment';
 import {ContactSection} from '../fragments/contact-section.fragment';
 import {AboutCompanySection} from '../fragments/about-company-section.fragment';
 import {CompaniesSection} from '../fragments/companies-section.fragment';
 import {MainSection} from '../fragments/main-section.fragment';
 import {OfferSection} from '../fragments/offer-section.fragment';
-import {CommentsCarousel} from '../fragments/comments-carousel.fragment';
+import {CommentsSection} from '../fragments/comments-section.fragment';
+import {LocationSection} from '../fragments/location-section.fragment';
 
 const menu = [
     {
@@ -896,12 +895,13 @@ const IndexPage = () => {
 
             <LayoutSection backgroundColor={'transparent'}>
                 <div className={'container'}>
-                    <div className={'text-center py-5'}>
-                        <SectionTitle title={'Opinie klientów'}/>
-                        <SectionSubtitle subtitle={'Co mówią o nas klienci?'}/>
-                    </div>
+                    <CommentsSection comments={comments}/>
+                </div>
+            </LayoutSection>
 
-                    <CommentsCarousel items={comments}/>
+            <LayoutSection backgroundColor={'white'}>
+                <div className={'container'}>
+                    <LocationSection/>
                 </div>
             </LayoutSection>
         </Layout>
