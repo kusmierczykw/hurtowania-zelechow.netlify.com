@@ -1,6 +1,6 @@
 import * as React from 'react';
-import {SectionSubtitle} from './section-subtitle.fragment';
-import {ButtonLink} from './button-link';
+import {SectionSubtitle} from '../fragments/section-subtitle.fragment';
+import {ButtonLink} from '../fragments/button-link';
 import Supplies from '../images/supplies.png';
 
 export const ContactSection = () => {

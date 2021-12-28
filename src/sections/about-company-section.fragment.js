@@ -1,6 +1,6 @@
 import * as React from 'react';
-import {SectionTitle} from './section-title.fragment';
-import {SectionSubtitle} from './section-subtitle.fragment';
+import {SectionTitle} from '../fragments/section-title.fragment';
+import {SectionSubtitle} from '../fragments/section-subtitle.fragment';
 import Biuro from '../images/biuro.png';
 import Hurtownia from '../images/hurtownia.png';
 

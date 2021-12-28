@@ -1,4 +1,4 @@
-import {ButtonLink} from './button-link';
+import {ButtonLink} from '../fragments/button-link';
 import Charwoman from '../images/charwoman.png';
 import * as React from 'react';
 

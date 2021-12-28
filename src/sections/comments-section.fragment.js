@@ -1,7 +1,7 @@
 import * as React from 'react';
-import {CommentsCarousel} from './comments-carousel.fragment';
-import {SectionTitle} from './section-title.fragment';
-import {SectionSubtitle} from './section-subtitle.fragment';
+import {CommentsCarousel} from '../fragments/comments-carousel.fragment';
+import {SectionTitle} from '../fragments/section-title.fragment';
+import {SectionSubtitle} from '../fragments/section-subtitle.fragment';
 
 export const CommentsSection = ({comments}) => {
     return (
@@ -11,7 +11,9 @@ export const CommentsSection = ({comments}) => {
                 <SectionSubtitle subtitle={'Co mówią o nas klienci?'}/>
             </div>
 
-            <CommentsCarousel items={comments}/>
+            <div className={'pb-5'}>
+                <CommentsCarousel items={comments}/>
+            </div>
         </>
     );
 }

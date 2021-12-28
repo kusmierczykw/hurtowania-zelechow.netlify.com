@@ -8,7 +8,9 @@ export const LayoutSection = ({children, backgroundColor, minHeight}) => {
     };
 
     return (
-        <div style={stylesObject}>
+        <div
+            className='layout-section'
+            style={stylesObject}>
             {children}
         </div>
     );

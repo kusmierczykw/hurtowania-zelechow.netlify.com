@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {CompanyLogo} from './company-logo.fragment';
+import {CompanyLogo} from '../fragments/company-logo.fragment';
 
 export const CompaniesSection = ({companies}) => {
     return (

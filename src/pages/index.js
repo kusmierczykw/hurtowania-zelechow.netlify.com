@@ -9,13 +9,13 @@ import VizirLogo from '../images/vizir-logo.png';
 import PersilLogo from '../images/persil-logo.png';
 import PurLogo from '../images/pur-logo.png';
 import {Divider} from '../fragments/divider.fragment';
-import {ContactSection} from '../fragments/contact-section.fragment';
-import {AboutCompanySection} from '../fragments/about-company-section.fragment';
-import {CompaniesSection} from '../fragments/companies-section.fragment';
-import {MainSection} from '../fragments/main-section.fragment';
-import {OfferSection} from '../fragments/offer-section.fragment';
-import {CommentsSection} from '../fragments/comments-section.fragment';
-import {LocationSection} from '../fragments/location-section.fragment';
+import {ContactSection} from '../sections/contact-section.fragment';
+import {AboutCompanySection} from '../sections/about-company-section.fragment';
+import {CompaniesSection} from '../sections/companies-section.fragment';
+import {MainSection} from '../sections/main-section.fragment';
+import {OfferSection} from '../sections/offer-section.fragment';
+import {CommentsSection} from '../sections/comments-section.fragment';
+import {LocationSection} from '../sections/location-section.fragment';
 
 const menu = [
     {
@@ -902,6 +902,30 @@ const IndexPage = () => {
             <LayoutSection backgroundColor={'white'}>
                 <div className={'container'}>
                     <LocationSection/>
+                </div>
+            </LayoutSection>
+
+            <LayoutSection backgroundColor={'transparent'}>
+                <div className={'container'}>
+                    <div className={'row my-5 pt-5'}>
+                        <div className={'col-lg'}>
+                            Copyright © 2010-{new Date().getFullYear()} Witold Mucha
+                        </div>
+
+                        <div className={'col-lg'}>
+                            <span className={'me-1'}>Projekt:</span>
+                            <span className={'fw-bold '}>Daniel Włodarczyk</span>
+                        </div>
+
+                        <div className={'col-lg'}>
+                            <span className={'me-1'}>Realizacja:</span>
+                            <span className={'fw-bold'}>
+                                <a href={'http://wojciech-kusmierczyk.pl/'}
+                                   target={'_blank'}
+                                   className={'text-black text-link'}>Wojciech Kuśmierczyk</a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </LayoutSection>
         </Layout>

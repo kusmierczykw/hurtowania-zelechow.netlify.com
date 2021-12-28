@@ -8,3 +8,11 @@ body {
   padding: 2rem;
   background-color: $gray;
 }
+
+.text-link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
