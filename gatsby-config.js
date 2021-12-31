@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: ".",
+    title: "Witold Mucha | Sprzedaż hurtowa art. przemysłowych i chemii gospodarczej",
   },
   plugins: [
     {
