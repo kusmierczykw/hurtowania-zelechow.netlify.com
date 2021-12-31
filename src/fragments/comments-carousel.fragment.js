@@ -18,6 +18,7 @@ export const CommentsCarousel = ({items}) => {
                             data-bs-target={`#${carouselName}`}
                             data-bs-slide-to={index}
                             className={classString}
+                            key={index}
                             aria-current='true'
                             aria-label={`Slide ${index + 1}`}
                         />

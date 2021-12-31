@@ -10,6 +10,13 @@ module.exports = {
         trackingId: "XXX",
       },
     },
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -80,
+        duration: 100
+      }
+    },
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",

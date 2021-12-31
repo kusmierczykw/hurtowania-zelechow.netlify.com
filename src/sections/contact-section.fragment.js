@@ -18,7 +18,7 @@ export const ContactSection = () => {
                 <SectionSubtitle subtitle={'Skontaktuj się z nami!'}/>
 
                 <div className={'mt-5'}>
-                    <ButtonLink label={'Przejdź do kontaktu'} href={''}/>
+                    <ButtonLink label={'Przejdź do kontaktu'} href={'/#kontakt'}/>
                 </div>
             </div>
         </div>

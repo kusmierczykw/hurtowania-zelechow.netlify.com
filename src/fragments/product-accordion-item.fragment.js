@@ -13,11 +13,16 @@ export const ProductAccordionItem = ({id, title, content, accordionName}) => {
             <div className='accordion-body'>
                 <div className='row'>
                     {
-                        content.map((section, index) => (
-                            <div className={'col-lg py-3'}>
-                                <ul key={index} className={'mb-0'}>
+                        content.map(({id: contentId, items}) => (
+                            <div key={contentId} className={'col-lg py-3'}>
+                                <ul className={'mb-0 accordion-collapse__list'}>
                                     {
-                                        section?.map(({title}, index) => (<li key={index}>{title}</li>))
+                                        items?.map(({title, id: itemId}) => (
+                                            <li key={itemId}
+                                                className={'accordion-collapse__list-item'}>
+                                                {title}
+                                            </li>
+                                        ))
                                     }
                                 </ul>
                             </div>

@@ -1,7 +1,30 @@
+@use '../styles/variables/colors' as *;
+
 .accordion-button {
   &.no-content {
     &::after {
       content: none;
+    }
+  }
+}
+
+.accordion-collapse {
+  &__list {
+    list-style: none;
+  }
+
+  &__list-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    &:before {
+      content: '•';
+      color: $blue;
+      font-size: 2rem;
+      line-height: 1;
+      flex: 0 0 1.25rem;
+      display: flex;
     }
   }
 }

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {AnchorLink} from 'gatsby-plugin-anchor-links';
 import './navbar-menu.fragment.scss';
 
 export const NavbarMenu = ({menu}) => {
@@ -7,7 +8,7 @@ export const NavbarMenu = ({menu}) => {
             {
                 menu.map(({label, link, key}) => (
                     <li key={key} className={'nav-item'}>
-                        <a href={link} className={'nav-link'}>{label}</a>
+                        <AnchorLink to={link} title={label} className={'nav-link'}>{label}</AnchorLink>
                     </li>
                 ))
             }
