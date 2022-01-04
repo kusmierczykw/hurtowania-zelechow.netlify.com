@@ -157,11 +157,11 @@ export const products = [
                     },
                     {
                         id: '14dc8242-b6fa-4fcf-87d2-dcddad5be2c6',
-                        title: 'długopisy, ołówki, korektory, zakreślacie, flamastry, pióra, kredki',
+                        title: 'długopisy, ołówki, korektory, zakreślacze, flamastry, pióra, kredki',
                     },
                     {
                         id: '282756d5-9edd-4409-a35c-951412703944',
-                        title: 'wkłady do długopisu, ołówka, pióra',
+                        title: 'wkłady do długopisów, ołówków, piór',
                     },
                     {
                         id: '280f772f-58ed-447c-aa0a-990ff8605a84',

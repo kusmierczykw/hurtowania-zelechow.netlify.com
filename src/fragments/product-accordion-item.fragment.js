@@ -11,10 +11,10 @@ export const ProductAccordionItem = ({id, title, content, accordionName}) => {
             aria-labelledby={`accordion-item-${id}`}
             data-bs-parent={`#${accordionName}`}>
             <div className='accordion-body'>
-                <div className='row'>
+                <div className='row py-3'>
                     {
                         content.map(({id: contentId, items}) => (
-                            <div key={contentId} className={'col-lg py-3'}>
+                            <div key={contentId} className={'col-lg'}>
                                 <ul className={'mb-0 accordion-collapse__list'}>
                                     {
                                         items?.map(({title, id: itemId}) => (

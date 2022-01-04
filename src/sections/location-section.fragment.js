@@ -62,7 +62,7 @@ export const LocationSection = () => {
                             <span className={'fw-bold'}>Adres:</span>
                             <div>
                                 Zakład Handlowy Mucha Witold<br/>
-                                ul. Długa 105 08-430 Żelechów
+                                ul. Długa 105, 08-430 Żelechów
                             </div>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ export const OfferSection = ({products}) => {
         <>
             <div className={'text-center py-5'}>
                 <SectionTitle title={'Oferta'}/>
-                <SectionSubtitle subtitle={'Poznaj naszą ofertę'}/>
+                <SectionSubtitle subtitle={'Nasz asortyment'}/>
             </div>
 
             <div className={'pb-5'}>
