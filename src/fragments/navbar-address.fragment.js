@@ -12,7 +12,7 @@ export const NavbarAddress = () => {
                     <Icon name={GEO_PIN_LOCATION}/>
                 </div>
                 <div className={'navbar-address__location'}>
-                    Długa 105, <br/> 08-430 Żelechów
+                    ul. Długa 105, <br/> 08-430 Żelechów
                 </div>
             </div>
         </>

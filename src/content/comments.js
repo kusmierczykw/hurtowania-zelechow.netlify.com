@@ -20,7 +20,7 @@ export const comments = [
         },
         {
             id: '57f2ecca-735a-4e18-8bd4-372062504a53',
-            content: 'Kiedyś robiąc zakupy zapomniałem wszystko zabrać i po 17 Pan Witek podrzucił mi towar do domu, a dodam, że trudno mi się poruszać. Jesteśmy z żoną za to wdzięczni temu Panu.',
+            content: 'Kiedyś robiąc zakupy zapomniałem wszystko zabrać i po 17 Pan Witek podrzucił mi towar do domu, a dodam, że trudno mi się poruszać.',
         },
         {
             id: '77547be0-d341-4f1c-a3ea-776502562c32',
@@ -30,7 +30,7 @@ export const comments = [
     [
         {
             id: 'd3167fe5-0cec-4d5d-9d3d-9e40f231f7ef',
-            content: 'Kiedyś uratowali mnie z kłopotu – wszystkie sklepy w mieście były już zamknięte, a ja zadzwoniłem i ten Pan późną porą sprzedał mi naczynia na przyjęcie weselne, a co jeszcze ważne poinformował mnie, że to co nie zostanie użyte możemy oddać. Szacunek dla tego Pana! Polecam to miejsce!',
+            content: 'Kiedyś uratowali mnie z kłopotu – wszystkie sklepy w mieście były już zamknięte, a ja zadzwoniłem i ten Pan późną porą sprzedał mi naczynia na przyjęcie weselne, a co jeszcze ważne poinformował mnie, że to co nie zostanie użyte możemy oddać. Polecam to miejsce!',
         },
         {
             id: 'b72607e9-6547-41a5-afd0-27486f218411',
@@ -44,11 +44,11 @@ export const comments = [
     [
         {
             id: '19d98bf0-a13b-438e-9064-cab8d8d39c0f',
-            content: 'Moja ulubiony punkt z chemią w okolicy, bardzo lubię robić tu zakupy. Jeśli nie mają czegoś na stanie, zamawiam, a chłopaki starają się jak najszybciej sprowadzić towar.',
+            content: 'Mój ulubiony punkt z chemią w okolicy, bardzo lubię robić tu zakupy. Jeśli nie mają czegoś na stanie, zamawiam, a chłopaki starają się jak najszybciej sprowadzić towar.',
         },
         {
             id: '23a098b8-e476-4dde-a762-1d43e47a2c9a',
-            content: 'Kiedyś córka kupiła nie to co chcieliśmy, więc na drugi dzień Pan Witold przyjął od nas towar i wydał to co nas interesowało.',
+            content: 'Kiedyś córka kupiła nie to co chcieliśmy, więc na drugi dzień Pan Witold przyjął od nas towar i wydał, to co nas interesowało.',
         },
         {
             id: '7c40448c-3be4-49e3-82d9-1da3bf37e465',
@@ -66,7 +66,7 @@ export const comments = [
         },
         {
             id: '0d206ff3-0004-42ee-a24b-4fba00b6a9eb',
-            content: 'Bardzo miła obsługa za każdym razem kiedy robię u nich zakupy.',
+            content: 'Bardzo miła obsługa za każdym razem, kiedy robię u nich zakupy.',
         }
     ],
     [

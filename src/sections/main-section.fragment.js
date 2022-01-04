@@ -7,7 +7,7 @@ export const MainSection = () => {
         <div className={'row align-items-center'}>
             <div className={'col-lg-5 py-5'}>
                 <div className={'display-6 text-uppercase fw-lighter'}>
-                    Sprzedaż hurtowa
+                    Sprzedaż hurtowa i detaliczna
                 </div>
 
                 <div className={'display-6 text-uppercase fw-bold'}>

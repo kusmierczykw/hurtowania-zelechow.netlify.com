@@ -18,7 +18,7 @@ const IndexPage = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8"/>
-                <title>Witold Mucha | Sprzedaż hurtowa art. przemysłowych i chemii gospodarczej</title>
+                <title>Witold Mucha | Sprzedaż hurtowa i detaliczna art. przemysłowych i chemii gospodarczej</title>
                 <link rel="icon" type="image/x-icon" href={'/favicon.ico'}/>
                 <link rel="shortcut icon" type="image/x-icon" href={'/favicon.ico'}/>
             </Helmet>

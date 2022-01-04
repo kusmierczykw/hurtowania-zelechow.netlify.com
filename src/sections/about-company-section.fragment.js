@@ -18,7 +18,7 @@ export const AboutCompanySection = () => {
 
                 <p className={'text-justify'}>
                     W ofercie mamy artykuły szkolne, papiernicze, biurowe, kosmetyki i środki higieny,
-                    artykuły kuchenne, środki czyszczące,akcesoria i sprzęt do sprzątania, znicze oraz wiele
+                    artykuły kuchenne, środki czyszczące, akcesoria i sprzęt do sprzątania, znicze oraz wiele
                     innych. Współpracujemy z importerami z całego kraju, dlatego posiadamy w ofercie
                     produkty różnych marek. Dzięki zdobytemu przez lata doświadczeniu poznaliśmy oczekiwania
                     i potrzeby naszych Klientów. Nasi pracownicy chętnie pomogą w wyborze odpowiedniego
@@ -32,13 +32,13 @@ export const AboutCompanySection = () => {
 
             <div className={'col-lg-7 py-lg-5 text-center'}>
                 <img
-                    src={Biuro}
-                    alt={'Nasze biuro'}
-                    className={'img-fluid'}
-                />
-                <img
                     src={Hurtownia}
                     alt={'Nasza hurtownia'}
+                    className={'img-fluid'}/>
+
+                <img
+                    src={Biuro}
+                    alt={'Nasze biuro'}
                     className={'img-fluid'}
                     style={{marginLeft: '-4rem', marginTop: '-4rem'}}/>
             </div>

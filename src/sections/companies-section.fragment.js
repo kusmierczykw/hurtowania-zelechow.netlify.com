@@ -5,7 +5,7 @@ export const CompaniesSection = ({companies}) => {
     return (
         <div className={'row align-items-center py-3'}>
             <div className={'fw-bold col-lg-auto py-3'}>
-                Sprzedajemy <br/> artykuły takich firm:
+                Sprzedajemy <br/> artykuły takich firm, jak np.:
             </div>
 
             <div className={'col-lg'}>
