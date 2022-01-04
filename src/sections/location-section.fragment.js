@@ -1,6 +1,5 @@
 import * as React from 'react';
 import {SectionTitle} from '../fragments/section-title.fragment';
-import {SectionSubtitle} from '../fragments/section-subtitle.fragment';
 import {Icon} from '../core/icons/icon';
 import {CLOCK_FILL, ENVELOPE_FILL, GEO_PIN_LOCATION, PHONE_FILL} from '../core/icons/consts/icon.const';
 
@@ -17,7 +16,6 @@ export const LocationSection = () => {
             <div className={'row py-5'}>
                 <div className={'col-lg-5'}>
                     <SectionTitle title={'Kontakt'}/>
-                    <SectionSubtitle subtitle={'Skontaktuj się'}/>
 
                     <div className={'d-flex mt-5 mb-3'}>
                         <div className={'me-3'}>
