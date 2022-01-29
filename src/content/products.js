@@ -248,88 +248,60 @@ export const products = [
         title: 'Artykuły kreatywne i do gry',
         content: [
             {
-                "id": "06e9acf5-938f-4280-b44c-f4b4b9457bfa",
-                "items": [
+                id: 'e618c181-aeea-4d4a-b3a7-3d2d144ca609',
+                items: [
                     {
-                        id: '8c4ddcc6-c57d-46a6-98a0-23091c48cbc6',
-                        items: [
-                            {
-                                "title": "balony gumowe",
-                                "id": ""
-                            },
-                            {
-                                "title": "bańki mydlane",
-                                "id": ""
-                            },
-                            {
-                                "title": "flety do gry",
-                                "id": ""
-                            },
-                            {
-                                "title": "gry planszowe i puzzle",
-                                "id": ""
-                            },
-                            {
-                                "title": "karty do gry",
-                                "id": ""
-                            },
-                            {
-                                "title": "pistolety na wodę",
-                                "id": ""
-                            }
-                        ]
+                        id: 'e458b60e-1a91-4d1f-8994-6aa8c2452109',
+                        title: 'balony gumowe',
                     },
                     {
-                        id: 'e10ed917-1ee5-4673-a64f-978c91382294',
-                        items: [
-                            {
-                                "title": "rakietki i piłeczki do ping-ponga",
-                                "id": ""
-                            },
-                            {
-                                "title": "styropianowe bombki, choinki, jajka, kule itp.",
-                                "id": ""
-                            },
-                            {
-                                "title": "świeczki urodzinowe i fontanny",
-                                "id": ""
-                            },
-                            {
-                                "title": "torebki ozdobne na prezent",
-                                "id": ""
-                            },
-                            {
-                                "title": "wstążki, cekiny",
-                                "id": ""
-                            },
-                            {
-                                "title": "zimne ognie",
-                                "id": ""
-                            }
-                        ]
+                        id: '571fff84-ceff-4277-9f5c-e9aad54ae87f',
+                        title: 'bańki mydlane',
+                    },
+                    {
+                        id: 'cc04f9b5-5692-43d3-858c-427da8c68d1a',
+                        title: 'flety do gry',
+                    },
+                    {
+                        id: '0fcfb631-6dfa-4953-819a-e13c7a2f611a',
+                        title: 'gry planszowe i puzzle',
+                    },
+                    {
+                        id: '926c4a3c-c8c1-4060-8b1b-95e2408177f4',
+                        title: 'karty do gry',
+                    },
+                    {
+                        id: 'afdd1081-7d61-463e-a3a7-7c8b85322cf9',
+                        title: 'pistolety na wodę',
                     }
                 ]
             },
             {
-                "id": "8fcefd82-3543-45d6-bf6e-0aaa7419b942",
-                "items": [
+                id: '766b4be9-29cd-4255-a61a-c70697fe7bd4',
+                items: [
                     {
-                        "title": "rakietki i piłeczki do ping-ponga"
+                        id: '7196f498-7fd6-4566-8cbf-a18d832d635d',
+                        title: 'rakietki i piłeczki do ping-ponga',
                     },
                     {
-                        "title": "styropianowe bombki, choinki, jajka, kule itp."
+                        id: 'f528fb59-101e-4d1e-a91c-82225d8164b7',
+                        title: 'styropianowe bombki, choinki, jajka, kule itp.',
                     },
                     {
-                        "title": "świeczki urodzinowe i fontanny"
+                        id: '280759ce-0aae-4782-9741-ad9d5066a721',
+                        title: 'świeczki urodzinowe i fontanny',
                     },
                     {
-                        "title": "torebki ozdobne na prezent"
+                        id: '21b27488-ae9c-47c5-af12-86bf3d7b0b77',
+                        title: 'torebki ozdobne na prezent',
                     },
                     {
-                        "title": "wstążki, cekiny"
+                        id: '8f3c90ff-6e51-4c73-b779-0da601ce1a46',
+                        title: 'wstążki, cekiny',
                     },
                     {
-                        "title": "zimne ognie"
+                        id: '0b69262a-6aeb-42a2-b7ce-abd96e16e557',
+                        title: 'zimne ognie',
                     }
                 ]
             }
