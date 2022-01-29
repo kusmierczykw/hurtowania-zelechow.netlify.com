@@ -1,8 +1,9 @@
 import * as React from 'react';
+import './layout.scss';
 
 export const Layout = ({children}) => {
     return (
-        <div>
+        <div className={'layout'}>
             <main>
                 {children}
             </main>
