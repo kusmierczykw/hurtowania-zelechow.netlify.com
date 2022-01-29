@@ -4,56 +4,64 @@ export const products = [
         title: 'Artykuły papiernicze',
         content: [
             {
-                id: '9b8c4573-e54b-4813-a721-c0d2ba322ec6',
+                id: '591553d4-23fe-4d7c-91ec-4863a3ba9f6d',
                 items: [
                     {
-                        id: '3f3b1e58-19a6-4eda-8910-06813edfd551',
-                        title: 'książeczki do kolorowania'
+                        id: '36b65e95-4812-4ea2-a0c0-6dfc23c3fd76',
+                        title: 'bibuła',
                     },
                     {
-                        id: '1136200f-1172-4ec9-9a4a-0af31619974d',
-                        title: 'podkłady pod biurko z kalendarzem'
-                    },
-                    {
-                        id: '9613835e-5497-4d46-b97e-a8247134cc93',
-                        title: 'kartki świąteczne, okolicznościowe i pocztówki'
-                    },
-                    {
-                        id: '9ba16052-e449-43e2-9c4b-7b122a4fe883',
-                        title: 'zaproszenia na uroczystości'
-                    },
-                    {
-                        id: 'f1cbe8f4-263d-467d-a9df-027d277f4ec4',
-                        title: 'kalendarze',
-                    },
-                    {
-                        id: 'b23d1370-1c05-4ac9-83ba-5a5a396eca15',
-                        title: 'koperty',
-                    },
-                ]
-            },
-            {
-                id: '57806839-cff1-4eda-9d85-da90439c218c',
-                items: [
-                    {
-                        id: '9f46ea9f-99a3-4ec7-ba30-051590f9dd0e',
-                        title: 'notesy',
-                    },
-                    {
-                        id: 'af02cc34-8ae8-4818-9c88-d77c9d6e7ea7',
-                        title: 'brystole',
-                    },
-                    {
-                        id: '7d90d45f-b416-4613-b65f-e15e7627c2b1',
-                        title: 'zeszyty',
-                    },
-                    {
-                        id: '8f5e6cd1-d224-4983-aa5d-677d9d7e1950',
+                        id: '76081c1f-2022-4d6e-bf02-ba875704377f',
                         title: 'bloki',
                     },
                     {
-                        id: 'a0fa98f1-841c-4f71-b692-d16bb9604024',
+                        id: 'e7365c6e-7fd0-4d0e-99a1-c58a0b2674ad',
+                        title: 'bruliony',
+                    },
+                    {
+                        id: 'b5a1bcff-a7c4-4b4d-925e-da774b2dc0cc',
+                        title: 'brystole',
+                    },
+                    {
+                        id: '8677e0e6-b122-4abb-af3b-8d0bc7745255',
                         title: 'dzienniczki ucznia',
+                    },
+                    {
+                        id: '78374901-a371-4688-a5a0-35104dcbd2e9',
+                        title: 'kalendarze',
+                    },
+                    {
+                        id: 'ead75719-c26a-45e7-b185-715049fa2ace',
+                        title: 'kartki świąteczne, okolicznościowe i pocztówki',
+                    }
+                ]
+            },
+            {
+                id: '3e52f337-b9a9-4198-92c6-86ff69eae1ed',
+                items: [
+                    {
+                        id: '460ecaf8-59a6-47a0-97be-9a58f496d07a',
+                        title: 'koperty',
+                    },
+                    {
+                        id: '4f6a50de-060e-4a22-b470-64225d78965a',
+                        title: 'książeczki do kolorowania',
+                    },
+                    {
+                        id: '3611702b-5c6b-4d6c-b149-0b0d2c69aa3b',
+                        title: 'notesy',
+                    },
+                    {
+                        id: 'f3565906-7004-47ca-8165-7b8bead7469e',
+                        title: 'podkłady pod biurko z kalendarzem',
+                    },
+                    {
+                        id: 'e2116258-f6b4-44ab-85d7-2516b1e6dda8',
+                        title: 'zaproszenia na uroczystości',
+                    },
+                    {
+                        id: 'fa860cd8-7a84-4eaf-8c5f-3ab9a99ebb0a',
+                        title: 'zeszyty',
                     }
                 ]
             }
@@ -64,168 +72,172 @@ export const products = [
         title: 'Artykuły szkolne i biurowe',
         content: [
             {
-                id: 'a8890c30-fe14-48df-bcec-f00c6065d5c6',
+                id: '3c8d4c24-44d0-4b77-a6cc-b43194295cbf',
                 items: [
                     {
-                        id: '7a90dd6c-4cce-459c-829c-d94cc6b6fab1',
-                        title: 'tablice korkowe',
-                    },
-                    {
-                        id: 'b2b36014-13e7-45c9-9874-f794e62ace6d',
-                        title: 'sprężone powietrze',
-                    },
-                    {
-                        id: 'a9bde6db-5231-460d-9437-f0655495592c',
-                        title: 'ściereczki do monitora',
-                    },
-                    {
-                        id: 'f9d42d84-b40e-48cd-8d9d-6674b94f52e0',
-                        title: 'spraye do czyszczenia monitorów',
-                    },
-                    {
-                        id: '19594da6-7ceb-4559-be1a-4aa1b784a75c',
-                        title: 'płyty CD, DVD',
-                    },
-                    {
-                        id: '2c86b636-7945-4d76-9d63-ea52af7c3ff5',
-                        title: 'segregatory, przekładki do segregatora',
-                    },
-                    {
-                        id: '99b93d9d-d08d-460f-84b1-b715aa2e5d67',
-                        title: 'teczki, skoroszyty',
-                    },
-                    {
-                        id: '9c2e7f9a-fad5-4cdd-95b7-45cc12a22bf7',
-                        title: 'koszulki na dokumenty',
-                    },
-                    {
-                        id: 'fe4883c0-c15f-4f25-996a-a8f4facb54f4',
-                        title: 'papier xero',
-                    },
-                    {
-                        id: '300ab6c8-0ffc-4fae-89cf-12877c3cb57a',
-                        title: 'papier foto',
-                    },
-                    {
-                        id: 'b7caf933-a98a-4093-8f74-d83d08533248',
-                        title: 'niszczarka do dokumentów',
-                    },
-                    {
-                        id: 'a0a61276-4cf9-4be9-af86-5b0c907edcd6',
-                        title: 'pendrive USB',
-                    },
-                    {
-                        id: 'd17c642a-055b-4be6-b504-07d90268f9fe',
-                        title: 'rolki kasowe',
-                    },
-                    {
-                        id: '2acae985-d9bd-4531-8e01-e39c4178170d',
-                        title: 'tusze do drukarki',
-                    },
-                    {
-                        id: 'cf4d55e5-d752-4a92-90ce-8182d63836c4',
-                        title: 'gumki recepturki',
-                    },
-                    {
-                        id: 'cf270cf6-233a-465a-93a2-1fca5583ae81',
-                        title: 'spinacze biurowe',
-                    },
-                    {
-                        id: '2a5efd0e-bab4-498b-9911-cee3d8852731',
-                        title: 'dziurkacze',
-                    },
-                    {
-                        id: '69cc30ca-3e25-479f-8ee7-501ade3bc210',
-                        title: 'zszywacze, zszywki',
-                    },
-                    {
-                        id: '54fe3eb4-9d1a-449a-b8d6-e38b415d0a38',
-                        title: 'poduszki do pieczątek',
-                    },
-                    {
-                        id: '339945ab-1935-4423-a691-7817ada911a8',
+                        id: '1b888735-dc8c-4cc5-808e-8d15f4cc3120',
                         title: 'baterie alkaiczne i zwykłe',
                     },
-                ]
-            },
-            {
-                id: 'cde8af3e-bace-42b9-957c-e4f7c6a6d6bc',
-                items: [
                     {
-                        id: 'c80d0c00-1070-4100-8502-b6db87a3bbad',
+                        id: '86687b8e-f9bd-418f-a961-f69c630db5a5',
                         title: 'breloki do kluczy',
                     },
                     {
-                        id: '14dc8242-b6fa-4fcf-87d2-dcddad5be2c6',
-                        title: 'długopisy, ołówki, korektory, zakreślacze, flamastry, pióra, kredki',
-                    },
-                    {
-                        id: '282756d5-9edd-4409-a35c-951412703944',
-                        title: 'wkłady do długopisów, ołówków, piór',
-                    },
-                    {
-                        id: '280f772f-58ed-447c-aa0a-990ff8605a84',
-                        title: 'farby plakatowe, akrylowe',
-                    },
-                    {
-                        id: '546521fa-4050-4e09-b1a9-9908afd63a78',
-                        title: 'pędzle',
-                    },
-                    {
-                        id: 'e2bd9336-efdf-4d4c-84e8-cd1715626a03',
-                        title: 'piórniki',
-                    },
-                    {
-                        id: 'df3605fb-85d1-47d5-bddd-4062c99f0f3f',
-                        title: 'taśmy klejące',
-                    },
-                    {
-                        id: '4989afd1-8d76-41b3-ba82-7bacff88f5cc',
-                        title: 'kleje',
-                    },
-                    {
-                        id: '6fca6cdb-f181-4c20-84ae-3954dd6a6aa5',
-                        title: 'kredy do pisania po tablicy',
-                    },
-                    {
-                        id: '23bc2d52-8851-4cae-953b-b7e6696b63fc',
-                        title: 'modelina, plastelina',
-                    },
-                    {
-                        id: '444d4f21-390a-4fb5-94f4-611847f7d066',
-                        title: 'kalkulatory',
-                    },
-                    {
-                        id: 'd722c05e-367c-4c24-96a8-4b115debfa4a',
-                        title: 'linijki, ekierki, kątomierze',
-                    },
-                    {
-                        id: '5f01c6b4-fac1-4ef1-a136-f3efe9725278',
+                        id: '21e07480-8d3e-4ed7-bff8-0bc886b89706',
                         title: 'cyrkle',
                     },
                     {
-                        id: 'fc105d63-cc16-4a78-8cd6-33e657a8673e',
-                        title: 'nożyczki',
+                        id: '4aa59301-1296-4bf3-ab37-568dc09169f7',
+                        title: 'długopisy, flamastry, kredki, korektory, ołówki, pióra, zakreślacze',
                     },
                     {
-                        id: 'c34d4928-dcdf-4ff9-955e-4035eb38127b',
-                        title: 'temperówki',
+                        id: '9854e7fd-982d-4ae0-b1dd-028449d3f80d',
+                        title: 'dziurkacze',
                     },
                     {
-                        id: '27b22753-1f1f-4f05-a9bd-27e570003929',
+                        id: '5167c9fb-5496-4eb3-ac64-c5cb9f253e47',
+                        title: 'farby akrylowe i plakatowe',
+                    },
+                    {
+                        id: '5b4e9b33-eb31-4698-8e6e-7b1454f9b3fe',
                         title: 'gumki do ścierania',
                     },
                     {
-                        id: '994dcb95-207c-40b6-b045-3ea678e77fb2',
-                        title: 'szpilki',
+                        id: '85e781a6-e8cd-4adc-8f76-27cc4ccc18a2',
+                        title: 'gumki recepturki',
                     },
                     {
-                        id: 'b1dd28db-ce24-4db2-a1c3-e5996c0ae340',
+                        id: 'bdaa3d4e-1091-42d0-8932-79b066506620',
+                        title: 'kalkulatory',
+                    },
+                    {
+                        id: 'f6fe10c3-4ef0-45e0-ae91-185598e9efbd',
+                        title: 'kleje do papieru, gumy itp.',
+                    },
+                    {
+                        id: '0312f57c-f464-4e66-8cf8-0210fa4baf9b',
+                        title: 'kleje do pistoletu',
+                    },
+                    {
+                        id: '5bed57f9-a2c0-446e-aa2a-3fc93eafe6ee',
+                        title: 'kostki kolorowe klejone i nieklejone',
+                    },
+                    {
+                        id: 'c7a2a803-f66b-4cd8-a786-ba77b0b90996',
+                        title: 'koszulki na dokumenty',
+                    },
+                    {
+                        id: '59e7388c-e404-4144-b09e-896c6fa124d7',
+                        title: 'kredy do pisania po tablicy',
+                    },
+                    {
+                        id: 'be7d73d4-96ae-4381-b32c-8feef3283839',
+                        title: 'linijki, ekierki, kątomierze',
+                    },
+                    {
+                        id: 'b7d11804-c856-4631-9362-2e526022d1cb',
+                        title: 'modelina, plastelina',
+                    },
+                    {
+                        id: '9389128b-d7bc-47e8-b402-5e6e8c90e6a2',
+                        title: 'niszczarka do dokumentów',
+                    },
+                    {
+                        id: 'c24bc9de-5c2e-4b64-b909-491e04d4b850',
+                        title: 'nożyczki',
+                    },
+                    {
+                        id: 'e8d2fb36-ee5d-44ad-80db-30f3d4875ae8',
+                        title: 'papier foto',
+                    },
+                    {
+                        id: '57feb49b-ff61-44f6-82da-6127f4480b08',
+                        title: 'papier xero',
+                    }
+                ]
+            },
+            {
+                id: 'de53e74e-3c84-484a-b6ed-44b89e3c9744',
+                items: [
+                    {
+                        id: '798cdd63-7a01-4e09-8868-8de3360d8df8',
+                        title: 'pendrive USB',
+                    },
+                    {
+                        id: '47a02cd1-0a53-4cd4-9637-d4351b76bf16',
+                        title: 'pędzle do malowania',
+                    },
+                    {
+                        id: '5cd9010f-5801-40f6-a628-8f4d55327ea9',
                         title: 'pisaki do tablicy',
                     },
                     {
-                        id: '05855c36-a35c-4d99-9e5d-ad0cf33d25b6',
-                        title: 'kleje do pistoletu',
+                        id: '7c6347c1-2f1c-4e07-9c4d-853f017bb103',
+                        title: 'piórniki',
+                    },
+                    {
+                        id: 'f0a000e6-fe5f-4133-9b48-f2ab4fdcc57f',
+                        title: 'płyty CD i DVD',
+                    },
+                    {
+                        id: '7be3e3c1-2893-488f-b22f-9ef9782d6edb',
+                        title: 'poduszki do pieczątek',
+                    },
+                    {
+                        id: '8f820a2a-f42e-4a65-a4b7-ebc47bd3213d',
+                        title: 'rolki kasowe',
+                    },
+                    {
+                        id: '8864e8fc-00b9-482a-bd54-b2df2f318b0a',
+                        title: 'segregatory i przekładki do segregatora',
+                    },
+                    {
+                        id: 'b0859f2a-d4b6-4164-9fb9-067473f359fa',
+                        title: 'spinacze biurowe',
+                    },
+                    {
+                        id: 'ded12559-1860-4425-9ef4-4d8fb93a9f50',
+                        title: 'spraye do czyszczenia monitorów',
+                    },
+                    {
+                        id: 'c00adad5-2791-476c-a1bd-acd016f40867',
+                        title: 'sprężone powietrze',
+                    },
+                    {
+                        id: '617b1fd3-de99-4c83-893d-82b62ec862a6',
+                        title: 'szpilki',
+                    },
+                    {
+                        id: 'd98eb24b-4118-4960-90f6-f26d9b7186f1',
+                        title: 'ściereczki do monitora',
+                    },
+                    {
+                        id: '54383b28-b4a4-414f-94ff-6fee991e928c',
+                        title: 'tablice korkowe',
+                    },
+                    {
+                        id: '96d4b933-0e42-402a-b9f8-c86618d9c13b',
+                        title: 'taśmy klejące',
+                    },
+                    {
+                        id: '28e22e9e-bf6a-494b-a151-c8e8b86b8cd5',
+                        title: 'teczki i skoroszyty',
+                    },
+                    {
+                        id: '77570d88-1672-4e21-8ede-46bc82afbdc2',
+                        title: 'temperówki',
+                    },
+                    {
+                        id: 'd08890a9-6dd4-4c70-9921-723b51e763f6',
+                        title: 'tusze i tonery do drukarki',
+                    },
+                    {
+                        id: 'bc80da0d-ae10-4562-bd89-fb3786221bc8',
+                        title: 'wkłady do długopisów, ołówków, piór',
+                    },
+                    {
+                        id: '14a9c3aa-812d-43ba-9b04-4f3ae1487ece',
+                        title: 'zszywacze i zszywki',
                     }
                 ]
             }
@@ -236,64 +248,91 @@ export const products = [
         title: 'Artykuły kreatywne i do gry',
         content: [
             {
-                id: 'f7502104-ca1c-4b88-9ab8-5a4b1a12e58a',
-                items: [
+                "id": "06e9acf5-938f-4280-b44c-f4b4b9457bfa",
+                "items": [
                     {
-                        id: 'ce6b68f1-72b4-4d00-8120-b4fdf6ddacea',
-                        title: 'świeczki urodzinowe',
+                        id: '8c4ddcc6-c57d-46a6-98a0-23091c48cbc6',
+                        items: [
+                            {
+                                "title": "balony gumowe",
+                                "id": ""
+                            },
+                            {
+                                "title": "bańki mydlane",
+                                "id": ""
+                            },
+                            {
+                                "title": "flety do gry",
+                                "id": ""
+                            },
+                            {
+                                "title": "gry planszowe i puzzle",
+                                "id": ""
+                            },
+                            {
+                                "title": "karty do gry",
+                                "id": ""
+                            },
+                            {
+                                "title": "pistolety na wodę",
+                                "id": ""
+                            }
+                        ]
                     },
                     {
-                        id: '7a371bd8-9041-45ef-bfde-c24249d35add',
-                        title: 'bańki mydlane',
-                    },
-                    {
-                        id: '5f313b7a-173a-42c0-894e-f57bbab9f3cb',
-                        title: 'pistolety na wodę',
-                    },
-                    {
-                        id: '501a5b78-687c-476c-8f72-53d93bae31db',
-                        title: 'zimne ognie',
-                    },
-                    {
-                        id: '21f4b1f6-9401-490b-9c2d-69441ab74470',
-                        title: 'balony gumowe',
-                    },
-                    {
-                        id: '6f5074d1-9830-4cd2-beac-cbff1574e896',
-                        title: 'styropianowe kule, choinki itp.',
-                    },
+                        id: 'e10ed917-1ee5-4673-a64f-978c91382294',
+                        items: [
+                            {
+                                "title": "rakietki i piłeczki do ping-ponga",
+                                "id": ""
+                            },
+                            {
+                                "title": "styropianowe bombki, choinki, jajka, kule itp.",
+                                "id": ""
+                            },
+                            {
+                                "title": "świeczki urodzinowe i fontanny",
+                                "id": ""
+                            },
+                            {
+                                "title": "torebki ozdobne na prezent",
+                                "id": ""
+                            },
+                            {
+                                "title": "wstążki, cekiny",
+                                "id": ""
+                            },
+                            {
+                                "title": "zimne ognie",
+                                "id": ""
+                            }
+                        ]
+                    }
                 ]
             },
             {
-                id: 'f2ec82fa-a4b4-4376-82c0-12d0bee4ec3e',
-                items: [
+                "id": "8fcefd82-3543-45d6-bf6e-0aaa7419b942",
+                "items": [
                     {
-                        id: 'bce18397-2ca2-4342-b02d-d2f137eb1971',
-                        title: 'torebki ozdobne na prezent',
+                        "title": "rakietki i piłeczki do ping-ponga"
                     },
                     {
-                        id: '870e5fb5-a390-4d53-9172-173e8476bec2',
-                        title: 'wstążki',
+                        "title": "styropianowe bombki, choinki, jajka, kule itp."
                     },
                     {
-                        id: 'b65dec50-2d04-4651-8b1f-d7df112d2ba1',
-                        title: 'flety do gry',
+                        "title": "świeczki urodzinowe i fontanny"
                     },
                     {
-                        id: 'bc28b058-527e-43b4-94cb-d90f02f1fae7',
-                        title: 'karty do gry',
+                        "title": "torebki ozdobne na prezent"
                     },
                     {
-                        id: '4dae568b-ba81-4443-aaba-d4532f8cff7b',
-                        title: 'gry planszowe, puzzle',
+                        "title": "wstążki, cekiny"
                     },
                     {
-                        id: '4a0a027d-ed5a-48fb-a15c-5b51a8afb4ba',
-                        title: 'rakietki do ping-ponga',
+                        "title": "zimne ognie"
                     }
                 ]
             }
-
         ],
     },
     {
@@ -301,172 +340,176 @@ export const products = [
         title: 'Kosmetyki i środki higieny',
         content: [
             {
-                id: '56f34338-450a-4872-87ce-28cc0d886a09',
+                id: 'f3b6270d-3c29-4629-aa00-337dd5d38f62',
                 items: [
                     {
-                        id: 'd9c99886-a633-4604-916a-7670665d8f96',
-                        title: 'dezodoranty męskie, damskie',
-                    },
-                    {
-                        id: '93bada23-8b23-4e8d-95f6-88281be6f0a9',
+                        id: '68d72703-be09-4829-b12e-ef836ffb0d40',
                         title: 'antyperspiranty',
                     },
                     {
-                        id: '5d3765ae-51e4-4835-972c-ee74955f8a9a',
-                        title: 'perfumy',
-                    },
-                    {
-                        id: 'bd3aa2dd-6171-4aa4-a142-43fd8c24e2d1',
-                        title: 'wsuwki do włosów',
-                    },
-                    {
-                        id: '0cad0a9d-dc8c-46d8-b933-8a480d432900',
-                        title: 'grzebienie, szczotki do włosów',
-                    },
-                    {
-                        id: '86e5bb6f-474a-4dc3-9860-713f10a33cf9',
-                        title: 'szampony, lakiery, pianki do włosów',
-                    },
-                    {
-                        id: '31aca6af-b965-4804-81f4-e6f1718e6d14',
-                        title: 'żele, odżywki do włosów',
-                    },
-                    {
-                        id: '52942529-fbec-4601-bc9b-7b1a44ec5742',
-                        title: 'gumki do włosów',
-                    },
-                    {
-                        id: 'a9667051-46a0-45ef-add6-510369e5ada1',
-                        title: 'płyny do kąpieli',
-                    },
-                    {
-                        id: '0de3a3ef-9e03-4b65-a789-9562f21f13d9',
-                        title: 'żele pod prysznic',
-                    },
-                    {
-                        id: 'fa1a3580-ec58-4de3-80af-3b86a4705d2a',
-                        title: 'gąbki do kąpieli',
-                    },
-                    {
-                        id: '2891204c-c05a-4e6a-9ca6-ffff7e699bac',
-                        title: 'płyny do higieny intymnej',
-                    },
-                    {
-                        id: '4088af5f-b86e-497d-bc75-8ca23c912036',
-                        title: 'mydła, mydelniczki',
-                    },
-                    {
-                        id: '8a55a246-19e2-4fe3-99ec-fcdd399a9bce',
-                        title: 'sole do kąpieli',
-                    },
-                    {
-                        id: '6b61742e-39c7-446b-917a-ffc6e2e96f92',
-                        title: 'płyny, kremy, balsamy po goleniu ',
-                    },
-                    {
-                        id: '8e71ed5e-2112-41ae-bb36-337f9fa89872',
-                        title: 'wody kolońskie',
-                    },
-                    {
-                        id: 'f9e16ed3-65a5-4485-9ced-9816867ed702',
-                        title: 'pianki, żele do golenia',
-                    },
-                    {
-                        id: '2bfe6bf4-9a9b-4166-ad55-6fd7ff00d93e',
-                        title: 'maszynki, żyletki do golenia',
-                    },
-                    {
-                        id: '61947929-1db6-49b8-a069-1b35ed92e848',
-                        title: 'lusterka',
-                    },
-                    {
-                        id: '856253db-e10b-4748-8ee0-aa06241ac1ea',
-                        title: 'płyny do jamy ustnej',
-                    },
-                ]
-            },
-            {
-                id: '21475e35-f523-457c-bb4c-d8f610291e15',
-                items: [
-                    {
-                        id: '36dcf407-f586-41f2-98a9-81945bbf8aa1',
-                        title: 'pasty do zębów',
-                    },
-                    {
-                        id: 'b2cc71e7-67ea-4882-a483-04461a55ddd6',
-                        title: 'patyczki kosmetyczne, płatki kosmetyczne',
-                    },
-                    {
-                        id: 'e1482071-f889-4675-bbe7-52b39bfaaed9',
-                        title: 'kremy',
-                    },
-                    {
-                        id: 'dee68538-0283-46b3-99da-ce8d554e48ad',
-                        title: 'lakiery, zmywacze do paznokci',
-                    },
-                    {
-                        id: '57e5b889-3075-45d2-8a09-8485f84a51bb',
-                        title: 'pomadki do ust',
-                    },
-                    {
-                        id: 'c98096d8-10bb-426b-bc45-be5f2a8d8ff4',
-                        title: 'pumeksy kosmetyczne, tarki do pięt',
-                    },
-                    {
-                        id: '68fac3b7-af0c-4e9c-a800-14e1e9478928',
-                        title: 'prezerwatywy',
-                    },
-                    {
-                        id: 'a8ff341b-5d0c-4db8-91a2-c9f4730da98c',
-                        title: 'pampersy',
-                    },
-                    {
-                        id: '2af88a12-d342-492b-a776-5f01e7c071ed',
-                        title: 'pieluchy dla dorosłych',
-                    },
-                    {
-                        id: '353d4d85-5440-46ba-919c-ed7f7a062573',
-                        title: 'pieluchy tetrowe',
-                    },
-                    {
-                        id: '0c58e48e-9f6e-468a-a292-c463f21fd4f8',
-                        title: 'podpaski',
-                    },
-                    {
-                        id: '3deb2044-796d-4478-9a4e-d5a9925a1840',
-                        title: 'tampony',
-                    },
-                    {
-                        id: '1518786b-724b-4fb3-a24a-49696523ca53',
-                        title: 'wkładki higieniczne',
-                    },
-                    {
-                        id: '566f3b64-386d-4089-9ef5-0b15126e3f17',
+                        id: '77121f7c-dd05-4a14-9d31-1fcf0c9d949e',
                         title: 'chustki higieniczne, chustki nawilżające',
                     },
                     {
-                        id: '1496e368-38d4-4eae-9994-9046be6f8936',
+                        id: 'e4326f78-df44-413b-a8e6-7b95d164a234',
+                        title: 'dezodoranty męskie i damskie',
+                    },
+                    {
+                        id: '38820167-6909-40ab-8bdd-d89947a1b61c',
+                        title: 'gąbki do kąpieli',
+                    },
+                    {
+                        id: 'd4a3b35e-2aa9-431e-89f5-6cbcef674892',
+                        title: 'grzebienie i szczotki do włosów',
+                    },
+                    {
+                        id: '7ad7fca5-afea-49d9-b8f4-81acdff7afde',
+                        title: 'gumki do włosów',
+                    },
+                    {
+                        id: '16a6335e-2927-4aea-93a5-13bcc6e30e73',
+                        title: 'kremy do rąk i twarzy',
+                    },
+                    {
+                        id: '15788b04-59db-43bc-9a28-57347d98aacb',
+                        title: 'lakiery i zmywacze do paznokci',
+                    },
+                    {
+                        id: '4af13f8b-571e-47db-9691-b6497b9d80d1',
+                        title: 'lusterka',
+                    },
+                    {
+                        id: '2a30c622-6f31-4dde-8c5c-6f327ba9c69e',
+                        title: 'maszynki i żyletki do golenia',
+                    },
+                    {
+                        id: 'd2727287-4f84-411c-84ee-5325781eb77e',
+                        title: 'mydła i mydelniczki',
+                    },
+                    {
+                        id: '1b306b82-5bd1-4fd2-9a0f-2254fd89f613',
+                        title: 'pampersy',
+                    },
+                    {
+                        id: '1f5f9dea-72e3-4eb2-8c13-6ac252b8dc7d',
                         title: 'papiery toaletowe',
                     },
                     {
-                        id: '3657b260-604e-450c-be06-cf1f71354969',
-                        title: 'ręczniki papierowe',
+                        id: '712b8a7c-5deb-486d-a8c6-548d1e5daf72',
+                        title: 'pasty do zębów',
                     },
                     {
-                        id: '56ab26d6-e7c3-462c-8ddc-05e8fd583b28',
-                        title: 'rajstopy',
+                        id: '89d03fa6-afaa-45bf-82c0-f8da12fd7196',
+                        title: 'patyczki i płatki kosmetyczne',
                     },
                     {
-                        id: '5066efc3-77ed-4a28-89ec-b826c3fc092e',
+                        id: 'a1930cce-5633-455a-a2d4-e2e2c6031c12',
+                        title: 'perfumy',
+                    },
+                    {
+                        id: 'c22c1946-821f-4c63-a177-db2116eab6e8',
+                        title: 'pianki i żele do golenia',
+                    },
+                    {
+                        id: 'a30f47b6-dfac-4ab0-a827-f5d120b8c51a',
+                        title: 'pieluchy dla dorosłych',
+                    },
+                    {
+                        id: 'ad0c8b9d-bc94-404f-b260-ece259c80f32',
+                        title: 'pieluchy tetrowe',
+                    },
+                    {
+                        id: 'b488b303-7174-4ebb-9b71-707784737104',
+                        title: 'płyny do higieny intymnej',
+                    },
+                    {
+                        id: '478ce724-bd5e-4f7c-80d5-ef27128d70ae',
+                        title: 'płyny do kąpieli',
+                    }
+                ]
+            },
+            {
+                id: '16eaabd1-564c-48a4-82ac-f749972fe93b',
+                items: [
+                    {
+                        id: '99484622-40bc-436d-a101-65181673e648',
+                        title: 'płyny do płukania jamy ustnej',
+                    },
+                    {
+                        id: '9f9c9f28-f042-4548-98ca-b031d8f617fb',
+                        title: 'płyny, kremy, balsamy po goleniu',
+                    },
+                    {
+                        id: '589b2564-d129-4490-862b-1cdcacf23635',
                         title: 'podkolanówki',
                     },
                     {
-                        id: '06cd9e42-6090-44de-a116-991888ceb719',
+                        id: '0974a6d8-4f4a-4130-a75b-7eabeed33bab',
+                        title: 'podpaski',
+                    },
+                    {
+                        id: 'c157894d-38ca-434f-997e-e5938ae2e6ea',
+                        title: 'pomadki do ust',
+                    },
+                    {
+                        id: '476cf800-1962-46ed-875b-606921f5b899',
+                        title: 'prezerwatywy',
+                    },
+                    {
+                        id: 'd3f91293-4317-4a9d-a289-c4e3c6535b8a',
+                        title: 'pumeksy kosmetyczne i tarki do pięt',
+                    },
+                    {
+                        id: '54ce4596-e9ef-4dcb-b3ce-0db72d763cd3',
+                        title: 'rajstopy zwykłe, lycra, stretch, mikrofibra',
+                    },
+                    {
+                        id: '9478c03d-a9a5-4b77-911c-59147267a664',
+                        title: 'ręczniki papierowe',
+                    },
+                    {
+                        id: '596996e5-b160-4a9c-bea8-c2449fbc7eb9',
+                        title: 'ręczniki składane',
+                    },
+                    {
+                        id: 'ec28c1ae-ca18-410f-9d34-f7108619eed7',
                         title: 'skarpety',
                     },
                     {
-                        id: '67fc7dc8-950b-4d6e-8d35-0f4530a20b9a',
+                        id: '98e5ea18-1129-4fa7-87e4-1240d26a15e5',
+                        title: 'sole do kąpieli',
+                    },
+                    {
+                        id: '221efbf8-633d-434f-9231-fec4e8b023e5',
+                        title: 'szampony, lakiery, pianki do włosów',
+                    },
+                    {
+                        id: 'b86bc944-e7f3-40b2-8991-b1d834396958',
+                        title: 'tampony',
+                    },
+                    {
+                        id: '6322884f-b047-4939-9d44-cf695a1fb6c7',
+                        title: 'wkładki higieniczne',
+                    },
+                    {
+                        id: 'c54f6bdd-ae78-4c18-aa10-d5450d9ba033',
+                        title: 'wody kolońskie',
+                    },
+                    {
+                        id: '73a0e65e-b262-4455-88d1-6d9afa4357f2',
+                        title: 'wsuwki do włosów',
+                    },
+                    {
+                        id: '98d702bb-2d67-4543-ab07-7fcb8b601383',
                         title: 'zestawy krawieckie',
+                    },
+                    {
+                        id: 'f46ad2dc-b0f3-4e70-b053-abeaa685820e',
+                        title: 'żele i odżywki do włosów',
+                    },
+                    {
+                        id: '19f4d27d-fa09-4f90-abf4-430e1204b354',
+                        title: 'żele pod prysznic',
                     }
                 ]
             }
@@ -477,76 +520,72 @@ export const products = [
         title: 'Artykuły kuchenne',
         content: [
             {
-                id: 'a132270c-faee-48a7-b045-c4bd410bf761',
+                id: 'cc380f47-dc91-4195-b098-cea2866d69ce',
                 items: [
                     {
-                        id: 'ec06331a-59e2-4057-836c-f73cff597b71',
-                        title: 'druciaki, gąbki do mycia naczyń',
-                    },
-                    {
-                        id: '233dcefb-4c61-4550-a39c-cc00846a013a',
-                        title: 'preparaty do odkamieniania zmywarek',
-                    },
-                    {
-                        id: '6e8131bf-c291-481c-9d77-a74941be3ad0',
-                        title: 'serwetki',
-                    },
-                    {
-                        id: '976d3484-4068-4bfe-906d-c39e24702aed',
-                        title: 'świece stołowe',
-                    },
-                    {
-                        id: 'b1f64baa-a08a-41c0-85d5-3cc7ab94d154',
-                        title: 'papiery do pieczenia, rękawy do pieczenia',
-                    },
-                    {
-                        id: '0cb37b1e-049d-4f1b-a343-e0377f98f09d',
+                        id: '939aadf2-72c9-4cf1-9a43-5938a54d95e1',
                         title: 'ceraty na stół',
                     },
                     {
-                        id: 'ede877fd-d15d-4766-9b61-7d185823ea92',
-                        title: 'zmywaki kuchenne',
+                        id: '8722010b-86cb-4a40-8471-1110ab01a62b',
+                        title: 'druciaki i gąbki do mycia naczyń',
                     },
                     {
-                        id: '7f0dacea-3745-40ca-8dac-ab0bbe2f1490',
-                        title: 'reklamówki',
+                        id: 'cea018b4-4c57-4342-8b77-f901482f321e',
+                        title: 'folie aluminiowe',
+                    },
+                    {
+                        id: 'e6b03715-4c6b-48a2-9a64-d3720274ff02',
+                        title: 'folie stretch',
+                    },
+                    {
+                        id: '083a5d5f-cd18-4224-a139-95f9384efc1b',
+                        title: 'herbaty',
+                    },
+                    {
+                        id: '4cd541a6-26ef-460a-962f-d56650ce28a0',
+                        title: 'kawy',
+                    },
+                    {
+                        id: '5784f58a-ef67-42c5-a735-2b43acf860fa',
+                        title: 'mieszadełka',
+                    },
+                    {
+                        id: '70d4ef5f-5364-4cdb-a513-d1ce31e850bd',
+                        title: 'miski na zupę',
                     }
                 ]
             },
             {
-                id: '35eddf54-2bc8-46bc-9484-98964b559069',
+                id: '81213ea0-8517-40f8-b47f-81b6edda2433',
                 items: [
                     {
-                        id: 'ee4a5838-c905-4548-b12a-f7013a190cb0',
-                        title: 'folie stretch',
+                        id: '72681354-ce82-4d09-9af0-ceb6ba4a33b2',
+                        title: 'papiery i rękawy do pieczenia',
                     },
                     {
-                        id: '56ace401-ffbf-4264-b587-4fd3132c24ea',
-                        title: 'woreczki strunowe, śniadaniowe',
+                        id: '923bd515-a75f-4ab6-8646-65737631eaac',
+                        title: 'reklamówki',
                     },
                     {
-                        id: '1e00b6bf-782a-4fe7-b744-0c297710187e',
-                        title: 'folie aluminiowe',
+                        id: '268b7172-3e2e-4046-937c-6fad47062607',
+                        title: 'serwetki pojedyncze i składane',
                     },
                     {
-                        id: '7c10d0c4-9252-4c3a-ad96-b1aad13b8930',
-                        title: 'herbaty',
+                        id: 'cb7cecdc-5af1-44ad-9e68-770601b9bc0d',
+                        title: 'świece stołowe',
                     },
                     {
-                        id: 'e2e00890-d609-4bfb-9c2d-91a7d0fef991',
-                        title: 'kawy',
+                        id: '8b0fcd59-2742-4217-8cf8-de0414c53559',
+                        title: 'woreczki strunowe i śniadaniowe',
                     },
                     {
-                        id: 'e9b90c17-5dc3-483d-b9a6-7b3872375663',
+                        id: '750f05a3-32eb-4dbf-aca9-e949bf617383',
                         title: 'wykałaczki',
                     },
                     {
-                        id: 'd167d10a-3afd-4596-b43b-121f89b86e28',
-                        title: 'miski na zupę',
-                    },
-                    {
-                        id: '59496a7b-fcef-4eaa-a08c-04fe6ce035bf',
-                        title: 'mieszadełka',
+                        id: '49466d92-ed14-4573-a327-6437bb2790fd',
+                        title: 'zmywaki kuchenne',
                     }
                 ]
             }
@@ -557,39 +596,46 @@ export const products = [
         title: 'Artykuły do grilla',
         content: [
             {
-                id: '2c5f9e50-c681-4a8d-b6d8-28c351004c0c',
-                items: [
-
-                    {
-                        id: '319343f4-db6a-492b-8b43-b4208b9b5bce',
-                        title: 'węgiel drzewny',
-                    },
-                    {
-                        id: 'fc22fbe9-42e0-4fd3-ae57-ba25981ad9e7',
-                        title: 'podpałki do grilla',
-                    },
-                    {
-                        id: 'c32344ce-cead-4ebb-92d8-7bbc16974751',
-                        title: 'zapałki',
-                    }
-                ],
-            },
-            {
-                id: 'a7360848-4e05-40ae-84aa-a8d9c922a06d',
+                id: '32164086-7b45-44b3-894e-0ed89647c111',
                 items: [
                     {
-                        id: '12be9e4d-1d09-429d-99d8-ddd6a66577cc',
+                        id: '231002ac-9549-4afb-ba1f-952dbc5170bb',
+                        title: 'obrusy kuchenne na rolce',
+                    },
+                    {
+                        id: 'db1a30ec-e480-4bac-8077-f411a3e7676c',
                         title: 'patyczki do szaszłyków',
                     },
                     {
-                        id: '791a479b-9aec-4973-afe0-2d6b04bda46b',
-                        title: 'plastikowe widelce, noże, łyżki, łyżeczki, talerze',
+                        id: 'bc1c2245-b374-4c83-9b0b-4c3b68930ed5',
+                        title: 'plastikowe kieliszki i kubki',
                     },
                     {
-                        id: '4090906e-f293-4f10-886e-1b84627ebd95',
-                        title: 'plastikowe kieliszki, kubki',
+                        id: 'ec8c086f-fa81-4745-a24e-c940d389f13c',
+                        title: 'plastikowe widelce, noże, łyżki, łyżeczki, talerze',
                     }
-                ],
+                ]
+            },
+            {
+                id: 'f12e086e-a920-4229-8f26-9b19d6363e76',
+                items: [
+                    {
+                        id: '33f89485-4442-44ee-b909-85f90aad8b9b',
+                        title: 'podpałki do grilla w żelu i kostce',
+                    },
+                    {
+                        id: 'd3ccd086-5a62-4ba4-955d-5e06d08a1e9f',
+                        title: 'węgiel i brykiet drzewny',
+                    },
+                    {
+                        id: 'afc2b963-4dbd-4781-a5f3-6fe2c15201fa',
+                        title: 'zapalarki gazowe',
+                    },
+                    {
+                        id: 'cbb28f9b-0060-4e64-9084-858259be7d2d',
+                        title: 'zapałki',
+                    }
+                ]
             }
         ]
     },
@@ -598,122 +644,110 @@ export const products = [
         title: 'Środki czyszczące',
         content: [
             {
-                id: '3c83ccbb-40e1-4b85-9849-6ba9b28e0467',
+                id: 'eba193b4-eb15-4dd7-ad62-ac71e5658ba5',
                 items: [
                     {
-                        id: '3307225a-f7f2-4b9f-8150-fd1a837ecaab',
-                        title: 'odrdzewiacze, odtłuszczacze',
+                        id: 'fbefc416-33a1-4286-8ad0-42ed4c50f405',
+                        title: 'koszyczki i wkłady do WC',
                     },
                     {
-                        id: '92cda997-6b24-4607-b810-bfd0ed4c22ff',
-                        title: 'odkamieniacze do zmywarek',
-                    },
-                    {
-                        id: '6c139f3c-be4c-4bb2-9032-8d956e538261',
-                        title: 'płyny do naczyń',
-                    },
-                    {
-                        id: '68d80d83-db53-40f7-92b5-33ece34952e5',
-                        title: 'płyny do czyszczenia zmywarki',
-                    },
-                    {
-                        id: '29cc59c8-428c-474d-8981-46ea11d1d9bc',
-                        title: 'tabletki do zmywarki',
-                    },
-                    {
-                        id: 'a9fb9ebd-5946-4946-90a7-e4f8b7af7bbb',
-                        title: 'żele, mleczka, spraye do czyszczenia łazienki i kuchni',
-                    },
-                    {
-                        id: 'b9f0f2f6-8df5-4060-a1f7-77fdae895f91',
-                        title: 'żele, płyny do kamienia i rdzy',
-                    },
-                    {
-                        id: '3c8ce0cd-8bf3-4bff-ac7c-b9f55d2591c1',
-                        title: 'płyny do czyszczenia pralki',
-                    },
-                    {
-                        id: 'd4861f05-1a4f-4931-9e17-5bccbe887c36',
-                        title: 'płyny do płukania',
-                    },
-                    {
-                        id: 'e055fb96-f49d-4f66-aabd-680d9c76e758',
-                        title: 'żele i płyny do czyszczenia WC',
-                    },
-                    {
-                        id: 'd5194311-f52a-4eb4-8bc6-2d4cc1b9efc4',
-                        title: 'kostki i koszyczki do WC',
-                    },
-                    {
-                        id: '80defbd8-d6b0-4fa4-93ad-2218591c6cae',
-                        title: 'wybielacze do prania',
-                    },
-                    {
-                        id: 'eaccbcb1-b49a-4c2d-a450-f86f6f1cca25',
-                        title: 'proszki do prania',
-                    },
-                    {
-                        id: '2dfc208a-3365-4a5a-b8de-5f7bde015009',
+                        id: '91dd9a69-6f0b-4db2-a164-2bca88aa07f2',
                         title: 'krochmale',
-                    }
-                ],
-            },
-            {
-                id: 'c8d50fff-3c8b-4582-a0dc-6006f7b7e642',
-                items: [
+                    },
                     {
-                        id: '6ac8cf7e-441f-42f0-80be-dd3781778269',
+                        id: '0de19ca2-2f6b-4d43-be40-e2ea756e4f57',
                         title: 'odplamiacze',
                     },
                     {
-                        id: '29798de1-fcbc-4be2-a763-6a28e4f6ef7e',
-                        title: 'proszki do firan',
+                        id: '9fb318bc-8f49-46e4-b14f-3409a424d7b1',
+                        title: 'odrdzewiacze i odtłuszczacze',
                     },
                     {
-                        id: '91dc8ed6-5913-43dd-a984-5af89d5307f0',
-                        title: 'pianki do dywanów',
-                    },
-                    {
-                        id: '71d2a0a6-2acc-4d66-a09d-9e2f64fef74f',
-                        title: 'płyny do czyszczenia dywanów',
-                    },
-                    {
-                        id: 'b96eeee1-0c6b-4ab2-864c-e759b51b78ed',
-                        title: 'preparaty do mycia mebli, paneli, drewna, szyb, kamienia, glazury, terakoty, PCV',
-                    },
-                    {
-                        id: 'b0b2647f-a122-482e-b934-7e1402b950c3',
-                        title: 'płyny do szyb',
-                    },
-                    {
-                        id: '9f44344d-738b-438e-b9e3-0f3a58ed679d',
-                        title: 'środki do czyszczenia nagrobków',
-                    },
-                    {
-                        id: '352a4370-e93b-4a85-9376-bb674efb48d5',
+                        id: 'ae6fc4e9-5b76-4f1e-83da-9c6dd6ec0b02',
                         title: 'pasty BHP',
                     },
                     {
-                        id: '6992fc21-2078-4a54-a504-e7b74315ddd8',
+                        id: 'b8a0a303-655d-4667-b76c-def96d32b47d',
                         title: 'pasty do butów',
                     },
                     {
-                        id: 'ab2e0531-e1b0-4c37-aacd-d369654241a1',
-                        title: 'mleczka do czyszczenia powierzchni skórzanych',
+                        id: '1ba14dc1-f349-434e-bd3a-658922cb0258',
+                        title: 'płyny do czyszczenia dywanów',
                     },
                     {
-                        id: 'acfbd429-a031-4f8a-8d6b-d54375b4b73e',
-                        title: 'środki do dezynfekcji',
+                        id: '15ad31df-c065-459c-8906-f82e2f5bec49',
+                        title: 'pianki do dywanów',
                     },
                     {
-                        id: '68f722ab-13bc-41c9-8304-725328c68e4c',
+                        id: '73bc0a84-a840-438a-a116-6638b2c4c1b0',
+                        title: 'płyny do czyszczenia zmywarki i pralki',
+                    },
+                    {
+                        id: 'fcad1e4b-ffdb-4d01-a68d-77c65889296d',
+                        title: 'płyny do naczyń',
+                    },
+                    {
+                        id: 'd1c5b091-04b4-4564-a745-513cfe0804a6',
+                        title: 'płyny do płukania i prania',
+                    },
+                    {
+                        id: 'd96d1f27-0329-463e-911c-884362b7c0cd',
+                        title: 'płyny do szyb',
+                    }
+                ]
+            },
+            {
+                id: 'baac7dd3-df50-4e1a-8384-f0f252d335b4',
+                items: [
+                    {
+                        id: '2eb6f35a-bbb9-409c-847e-b42b61866a2a',
+                        title: 'preparaty do mycia paneli, drewna, szyb, kamienia, glazury, terakoty, PCV',
+                    },
+                    {
+                        id: 'd3dcf128-6f48-48a7-9dfb-1c26feb1f7d8',
+                        title: 'preparaty do odkamieniania zmywarek',
+                    },
+                    {
+                        id: 'be5ceed7-e749-4dc1-ba37-72865177306d',
                         title: 'preparaty do rur',
                     },
                     {
-                        id: '8577aa27-a3d3-4559-b4a2-8c3fc10bdb62',
+                        id: '82711153-938f-4e91-8599-f654a1c85eaa',
                         title: 'preparaty do szamba',
+                    },
+                    {
+                        id: '594a93e4-ebe8-4702-b81d-a6f90466e255',
+                        title: 'proszki do firan',
+                    },
+                    {
+                        id: 'd1cbf066-de69-4177-915a-0df675991277',
+                        title: 'proszki do prania',
+                    },
+                    {
+                        id: '80f8ea6e-20c7-44da-8f48-334ca996bce5',
+                        title: 'środki do dezynfekcji rąk i powierzchni',
+                    },
+                    {
+                        id: '40fea606-0d0a-424e-b1ec-d0f2f204acb7',
+                        title: 'tabletki do zmywarki',
+                    },
+                    {
+                        id: '153fc6b3-3d66-4892-9ca4-35dc6088d2ee',
+                        title: 'wybielacze do prania',
+                    },
+                    {
+                        id: '40dcc9b1-aeb1-4680-b588-00bf060c0f31',
+                        title: 'żele, mleczka, spraye do czyszczenia łazienki i kuchni',
+                    },
+                    {
+                        id: '10f2e941-86cf-4219-bb22-bb4d029ebfd5',
+                        title: 'żele i płyny do czyszczenia WC',
+                    },
+                    {
+                        id: 'fb3f4996-b236-4838-abcb-b48b65c9cd44',
+                        title: 'żele, płyny do kamienia i rdzy',
                     }
-                ],
+                ]
             }
         ],
     },
@@ -722,112 +756,138 @@ export const products = [
         title: 'Akcesoria i sprzęt do sprzątania',
         content: [
             {
-                id: 'de9c8f40-7495-4fd7-a39a-1bae05387cb3',
+                id: '1994a963-9c89-4f97-8833-e2998d0b2414',
                 items: [
-
                     {
-                        id: 'd173ae2b-c514-44d6-a6a8-786ea55e36ad',
-                        title: 'rękawice robocze, kuchenne, foliowe, nitrylowe, gumowe, lateksowe, gospodarcze, ochronne',
+                        id: '10cd4708-5e5b-40e9-ba72-d0219ade5aec',
+                        title: 'kosze i wiadra',
                     },
                     {
-                        id: '3468f83b-49a8-4d4e-9cd1-84a6595de977',
-                        title: 'ochraniacze na buty',
-                    },
-                    {
-                        id: 'd9e1ccef-6acf-4a6e-ab82-391e7da04f30',
+                        id: '61a2c520-837c-410c-92ae-032f6ce86fff',
                         title: 'linki i spinacze do bielizny',
                     },
                     {
-                        id: 'd5e53746-58b4-4052-8341-25036154005d',
+                        id: '314894d2-05c7-4b81-8ff4-3a33b39ee11d',
+                        title: 'miotły',
+                    },
+                    {
+                        id: 'cf13bd63-dd00-4c97-8a91-daf2aa43f6f9',
                         title: 'mopy i kije do mopa',
                     },
                     {
-                        id: '5a88c464-8e99-44de-8b38-43b78086df0b',
-                        title: 'trzonki do grabi',
+                        id: 'fecf57b8-141c-4579-b387-226f8b810139',
+                        title: 'ochraniacze na buty',
                     },
                     {
-                        id: '22c8c0f0-a5f6-4469-a3cb-368a4aef9d79',
-                        title: 'ścierki',
+                        id: 'b6ca11c7-8fa5-491f-9f8e-869f3d90c46a',
+                        title: 'odświeżacze powietrza w żelu i spayu',
                     },
                     {
-                        id: '9fe05850-cf67-4988-b11a-1dcd23965280',
-                        title: 'miotły',
-                    }
-                ],
-            },
-            {
-                id: 'f3c3264b-597b-4023-a0b7-bf2079493e3c',
-                items: [
-                    {
-                        id: 'bb9b6d66-45f9-432b-976e-b31121b52394',
-                        title: 'zmiotki i szufelki',
-                    },
-                    {
-                        id: '14e74357-5885-4d69-8877-d4eb691bfd42',
-                        title: 'kosze i worki na śmieci',
-                    },
-                    {
-                        id: '57398185-9513-4dd2-bae0-f400ad49ab4d',
-                        title: 'wiadra',
-                    },
-                    {
-                        id: '2ef0b940-d70c-4154-9d68-7ff09a973584',
-                        title: 'pompki do umywalki',
-                    },
-                    {
-                        id: '5611a8e8-d073-48ae-b595-b60c6d9f6b7f',
-                        title: 'rolki czyszczące do ubrań',
-                    },
-                    {
-                        id: 'ecf60447-00c4-4de9-a72d-41d0611922df',
+                        id: '286282bd-3350-4255-be83-d3d13b74f918',
                         title: 'odświeżacze samochodowe',
                     },
                     {
-                        id: '526e07ce-b7f8-4eee-b5f6-010117416488',
-                        title: 'odświeżacze powietrza',
+                        id: '9d845d7d-585d-41d2-89de-43bf345f01d5',
+                        title: 'pompki do umywalki',
                     }
-                ],
+                ]
+            },
+            {
+                id: 'a30b4572-5ef0-4a8e-aaa2-e70e2f5a33ea',
+                items: [
+                    {
+                        id: '81890174-2cc7-4cd0-8a88-c2c3d1127726',
+                        title: 'rękawice robocze, kuchenne, foliowe, nitrylowe, gumowe, lateksowe, gospodarcze, ochronne',
+                    },
+                    {
+                        id: '5afd4c6a-e879-4df7-93d7-63f8f637b852',
+                        title: 'rolki czyszczące do ubrań',
+                    },
+                    {
+                        id: 'ac022591-cd5c-4268-8691-77c281d83b22',
+                        title: 'szczotki do zamiatania wewnątrz i na zewnątrz',
+                    },
+                    {
+                        id: 'a7e95e81-d599-49dd-887f-86e7e5da4aea',
+                        title: 'ścierki',
+                    },
+                    {
+                        id: 'eb6eb349-782c-4c31-9386-fbe4839c8d83',
+                        title: 'trzonki do grabi',
+                    },
+                    {
+                        id: '87a890f4-8e6a-4f6d-8cb8-3b4237b8038a',
+                        title: 'worki na śmieci',
+                    },
+                    {
+                        id: 'a856eb08-74e4-4dda-beaf-b446d2cfa15c',
+                        title: 'zmiotki i szufelki',
+                    }
+                ]
             }
         ]
     },
     {
         id: '259e4d1c-5fa8-479c-b380-4ab7a647aba1',
         title: 'Znicze i wkłady do zniczy',
+        content: [
+            {
+                id: '1961dfbf-dc54-4f69-b2ab-562bc626d42a',
+                items: [
+                    {
+                        id: 'e60a575e-48c1-4e4e-9731-4d437c9155b3',
+                        title: 'lampiony i znicze',
+                    },
+                    {
+                        id: '21b59dfb-b839-4935-b153-601467057fb7',
+                        title: 'wkłady do zniczy olejowe, parafinowe i woskowe',
+                    }
+                ]
+            },
+            {
+                id: 'ce41b269-3bda-4fd4-9f20-ad3a2bf2e052',
+                items: [
+                    {
+                        id: 'e1b417d6-4a10-4c4a-a97c-da6427259656',
+                        title: 'znicze elektryczne',
+                    }
+                ]
+            }
+        ]
     },
     {
         id: 'dcfae348-b041-4bf1-8bfb-598cf7483e6d',
         title: 'Artykuły ogrodnicze',
         content: [
             {
-                id: '2e15accc-c5af-475a-80ab-2311fb4eeba2',
+                id: '42b21978-9dbe-4233-b8a5-31d40fe9fd7b',
                 items: [
-
                     {
-                        id: '3dda7520-14de-4d10-814b-8595212ad733',
+                        id: 'b13b6e16-ed43-4ae8-a775-625914244702',
+                        title: 'lepy na muchy, myszy, szczury',
+                    },
+                    {
+                        id: '23536285-0095-425c-8d67-6a8bdb440516',
                         title: 'nawóz do trawy i kwiatów',
                     },
                     {
-                        id: 'a548ff81-3fd2-4a50-8acc-7ae917aefd97',
-                        title: 'ziemia uniwersalna',
-                    },
-                    {
-                        id: '40ad362b-65c0-4d3a-82d8-03f036b36f40',
-                        title: 'spraye na owady, muchy, kleszcze, mole, mszyce',
+                        id: 'ae045cc0-e139-4e6b-9142-474abe75c601',
+                        title: 'preparaty na myszy, szczury, krety, nornice',
                     }
-                ],
+                ]
             },
             {
-                id: '005b3ffa-6f92-4233-a09f-c5282ccdf9c4',
+                id: '65d578f1-887a-4752-9940-cb1e02b20ff2',
                 items: [
                     {
-                        id: '8679f1b9-2f91-49a6-9766-30ae1a12fa28',
-                        title: 'preparaty na myszy, szczury, krety, nornice',
+                        id: 'eace917e-23f1-47cb-b9be-c907d89ecb97',
+                        title: 'pułapki na krety i myszy',
                     },
                     {
-                        id: '7de17022-7f1f-4fdb-b899-4a18724a4512',
-                        title: 'pułapki na krety, myszy',
+                        id: '4067ba89-6dc4-4157-9752-3ac10e8483fe',
+                        title: 'spraye na owady, muchy, komary, kleszcze, mole, mszyce',
                     }
-                ],
+                ]
             }
         ]
     },
@@ -836,33 +896,32 @@ export const products = [
         title: 'Artykuły lecznicze',
         content: [
             {
-                id: 'e246dca2-18e3-4cc5-bf9a-0f92f604a023',
+                id: '1c95371e-480b-478a-b7f2-1406875e77bf',
                 items: [
-
                     {
-                        id: '577e07eb-3612-439d-be05-145f042eb7c6',
+                        id: '7102e43d-65e1-453d-893e-c10b9afe8129',
                         title: 'plastry opatrunkowe',
                     },
                     {
-                        id: '7956f975-bd28-40b2-8870-918d70ee2d6a',
-                        title: 'tabletki przeciwbólowe',
+                        id: '136febe1-66de-43d3-8a0b-3c2aca374d16',
+                        title: 'spirytus salicylowy',
                     },
                     {
-                        id: '7486854f-685f-4bb4-aee5-deebcaa29f52',
-                        title: 'woda utleniona',
+                        id: '6ab8aba0-0dce-4cce-b56c-281c7594dcef',
+                        title: 'tabletki przeciwbólowe',
                     }
-                ],
+                ]
             },
             {
-                id: 'cd45fe9b-5985-428b-8174-812f0012270c',
+                id: '89fe5481-4b37-4b86-bcc2-53176a5eb5c5',
                 items: [
                     {
-                        id: '1acd6851-beaa-4715-86c4-b7ba25f24299',
+                        id: '15bd6408-17d5-458d-baae-da86bf27866f',
                         title: 'wata',
                     },
                     {
-                        id: 'f4f80cde-680e-40b1-bda4-b48a472aaa21',
-                        title: 'spirytus salicylowy',
+                        id: 'e0b4804a-8581-49aa-a736-b16bac225294',
+                        title: 'woda utleniona',
                     }
                 ]
             }
@@ -873,50 +932,50 @@ export const products = [
         title: 'Pozostałe produkty',
         content: [
             {
-                id: '6e1ad9ec-706c-4230-b129-336286d0b94d',
+                id: '79d7991f-96be-4e02-9a69-0e964680b796',
                 items: [
                     {
-                        id: '3edf67cb-c1af-400e-89ae-89df745eefa4',
-                        title: 'gaz w butli',
+                        id: '9595fa80-94f6-45b8-89e8-1da3be294306',
+                        title: 'denaturat',
                     },
                     {
-                        id: 'e4a2b7cb-ac68-4761-8da2-7ac4854e49e0',
-                        title: 'żarówki',
+                        id: 'd6458222-9616-4fd4-a91f-e1d99ca72836',
+                        title: 'gaz do zapalniczek',
                     },
                     {
-                        id: '3522f0d6-d8b7-43e1-a544-ed20cdd95a16',
-                        title: 'woda destylowana ',
+                        id: '1281b8b0-d85a-4629-8c94-4f84befa8609',
+                        title: 'gaz w butli do kuchni',
                     },
                     {
-                        id: 'd1f0dfbd-c6c7-44ce-a656-a51c4a663ced',
-                        title: 'denaturat ',
-                    },
-                    {
-                        id: 'cde04bb1-3553-4811-8a08-c7dead68ab00',
-                        title: 'wycieraczki gumowe',
-                    }
-                ],
-            },
-            {
-                id: '3cf8cea0-fa5a-45d6-a940-249e9721ce2e',
-                items: [
-                    {
-                        id: '776c1458-2d3b-4e02-bd4a-2b96005ac717',
+                        id: '67346485-a237-4b5e-b54a-0d6245ee5c06',
                         title: 'latarki',
                     },
                     {
-                        id: '54dd59f5-4107-47a7-90d1-d7f2d57eecba',
-                        title: 'gazy do zapalniczek',
-                    },
-                    {
-                        id: '0d83586c-a127-454e-8d61-c3c34dd5d32c',
+                        id: 'fa1b3a4a-2386-4afd-bb84-cc1ac1f9967c',
                         title: 'płaszcze przeciwdeszczowe',
+                    }
+                ]
+            },
+            {
+                id: '12f13f50-a8d1-40c0-af29-cf3cb769f4ea',
+                items: [
+                    {
+                        id: 'ac9021a6-4513-4e95-b331-82a5e97b90a3',
+                        title: 'woda destylowana',
                     },
                     {
-                        id: '534b7780-cb8a-4fd6-bd64-843e99af4845',
-                        title: 'płyny do spryskiwaczy',
+                        id: '45d7f243-93d2-4187-a5df-dfd5adcebfbc',
+                        title: 'wycieraczki gumowe',
+                    },
+                    {
+                        id: 'cb044845-5a22-4be8-821c-a7f3da768c51',
+                        title: 'żarówki E14 i E27',
+                    },
+                    {
+                        id: '845166be-0c82-4b64-9d72-12187f856238',
+                        title: 'żarówki energooszczędne',
                     }
-                ],
+                ]
             }
         ]
     }
