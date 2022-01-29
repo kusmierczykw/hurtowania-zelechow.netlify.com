@@ -1,5 +1,5 @@
 import {ButtonLink} from '../fragments/button-link';
-import Charwoman from '../images/charwoman.png';
+import ProduktyNaSprzedaz from '../images/produkty_na_sprzedaz.png';
 import * as React from 'react';
 
 export const MainSection = () => {
@@ -15,8 +15,8 @@ export const MainSection = () => {
                 </div>
 
                 <p className={'mt-3 mb-5'}>
-                    Artykuły biurowe, kosmetyki, środki higieny, środki czystości, akcesoria i sprzęt do
-                    sprzątania
+                    Artykuły szkolne, biurowe, kuchenne, do grilla, lecznicze, ogrodnicze, środki czyszczące, akcesoria
+                    do sprzątania, kosmetyki i środki higieny oraz znicze
                 </p>
 
                 <ButtonLink
@@ -26,9 +26,9 @@ export const MainSection = () => {
 
             <div className={'col-lg-7 px-5'}>
                 <img
-                    src={Charwoman}
+                    src={ProduktyNaSprzedaz}
                     className={'img-fluid'}
-                    alt={'Sprzątaczka'}/>
+                    alt={'Produkty na sprzedaż'}/>
             </div>
         </div>
     )

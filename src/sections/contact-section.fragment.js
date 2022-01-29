@@ -1,16 +1,16 @@
 import * as React from 'react';
 import {SectionSubtitle} from '../fragments/section-subtitle.fragment';
 import {ButtonLink} from '../fragments/button-link';
-import Supplies from '../images/supplies.png';
+import HurtowniaWjazd from '../images/hurtownia_wjazd.png';
 
 export const ContactSection = () => {
     return (
         <div className={'row align-items-center'}>
-            <div className={'col-lg-4 order-last order-lg-first'}>
+            <div className={'col-lg-4 order-last order-lg-first text-lg-left text-center'}>
                 <img
-                    src={Supplies}
+                    src={HurtowniaWjazd}
                     className={'img-fluid'}
-                    alt={'Środki'}/>
+                    alt={'Wjazd do hurtowni'}/>
             </div>
 
             <div className={'col-lg-7 offset-lg-1 order-first order-lg-last py-5'}>
