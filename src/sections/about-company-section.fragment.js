@@ -12,7 +12,7 @@ export const AboutCompanySection = () => {
                 <SectionSubtitle subtitle={'30 lat doświadczenia'}/>
 
                 <p className={'fw-bold mt-3'}>
-                    Nasza firma działa w branży chemiczno-papierniczej dokładnie od 13 grudnia 1990 roku na
+                    Nasza firma działa w branży chemiczno-papierniczej dokładnie od 1 grudnia 1990 roku na
                     terenie województwa mazowieckiego i lubelskiego.
                 </p>
 
