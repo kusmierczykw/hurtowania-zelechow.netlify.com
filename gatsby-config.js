@@ -5,9 +5,18 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "G-RMHF103NDQ",
+        trackingIds: [
+          "G-RMHF103NDQ",
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: true,
+        },
       },
     },
     {
